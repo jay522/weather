@@ -1,0 +1,3 @@
+
+
+api.openweathermap.org/data/2.5/weather?q=bokaro&appid=968c773515c8b62bcd6c9b8feb4f67f4
