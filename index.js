@@ -1,7 +1,7 @@
 const http=require("http");
 const fs=require("fs");
 var requests=require("requests");
-
+const port=process.env.PORT||3000;
 const homeFile=fs.readFileSync("index.html","utf-8");
 
 const replaceVal=(tempVal,orgVal)=>{
@@ -29,11 +29,12 @@ const server=http.createServer((req,res)=>{
                 // console.log(realTimeData);
             })
             .on("end",(err)=>{
-                console.log("Hi");
                 if (err) return console.log("connection closed due to errors",err)
                 res.end();
             });
     }
 });
 
-server.listen(3000,"127.0.0.1");
+server.listen(port,()=>{
+    console.log("Hi");
+});
