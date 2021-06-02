@@ -2,7 +2,7 @@ const http=require("http");
 const fs=require("fs");
 var requests=require("requests");
 
-const homeFile=fs.readFileSync("home.html","utf-8");
+const homeFile=fs.readFileSync("index.html","utf-8");
 
 const replaceVal=(tempVal,orgVal)=>{
     let temperature=tempVal.replace("{%tempval%}",orgVal.main.temp);
@@ -29,6 +29,7 @@ const server=http.createServer((req,res)=>{
                 // console.log(realTimeData);
             })
             .on("end",(err)=>{
+                console.log("Hi");
                 if (err) return console.log("connection closed due to errors",err)
                 res.end();
             });
