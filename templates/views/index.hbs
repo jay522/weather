@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {{>headerlinks}}
+</head>
+<body>
+  {{>navbar}}
+    <!--header  -->
+    <div class="container-fluid main_header">
+        <div class="row">
+            <div class="col-md-6 col-12 main_header_left">
+                <p>Welcome to Weather App</p>
+                <h1>Get the latest <span class="text_color">Weather</span> Info of your City</h1>
+                <a href="/weather"><button>Check Now</button></a>
+            </div>
+            <div class="col-md-6 col-12 main_header_right">
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="image/bg1.jpg" class="w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="image/bg2.jpg" class="w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="image/bg3.jpg" class="w-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            </div>
+        </div>
+    </div>
+    {{>footer}}
+    <!-- <div class="box">
+        <div class="wave -one"></div>
+        <div class="wave -two"></div>
+        <div class="wave -three"></div>
+
+        <div id="weathercon">
+            
+        </div>
+
+        <div class="info">
+            <h2 class="location"><i class="fas fa-street-view" style="color: orange;"></i>
+                 {%location%},{%country%}</h2>
+            <p id="date"></p>
+            <h1 class="temp">{%tempval%}</h1>
+            <h3 class="tempmin_max">Min {%tempmin%} | Max {%tempmax%}</h3>
+        </div>
+    </div> -->
+
+    <script>
+        const curDate=document.getElementById("date");
+        let weathercon=document.getElementById("weathercon");
+
+            const tempStatus="{%tempstatus%}";
+
+            if(tempStatus=="Sunny"){
+                weathercon.innerHTML="<i class='fas fa-sun' style='color: orange;''></i>";
+            } else if (tempStatus=="Rainy"){
+                weathercon.innerHTML="<i class='fas fa-rain' style='color: #a4b0be;''></i>";
+            } else if (tempStatus=="Clouds"){
+                weathercon.innerHTML="<i class='fas fa-cloud' style='color: #f1f2f6;''></i>";
+            } else{
+                weathercon.innerHTML="<i class='fas fa-rain' style='color: #44c3de;''></i>";
+            }
+
+            const getCurrentDay=()=>{
+                var weekday=new Array(7);
+                weekday[0]="Sun";
+                weekday[1]="Mon";
+                weekday[2]="Tue";
+                weekday[3]="Wed";
+                weekday[4]="Thr";
+                weekday[5]="Fri";
+                weekday[6]="Sat";
+
+                let currentTime=new Date();
+                //console.log(weekday[currentTime.getDay()]);
+                let day=weekday[currentTime.getDay()];
+                return day;
+            };
+            const getCurrentTime=()=>{
+                var months=["Jan","Feb","Mar","Apr","May","June","July","Aug","Sept","Oct","Nov","Dec"];
+
+                var now=new Date();
+                var month=months[now.getMonth()]; //var month=months[now.getMonth()+1]; if not work
+                var date=now.getDate();
+                
+                let hours=now.getHours();
+                let mins=now.getMinutes();
+
+                let perids="AM";
+
+                if (hours>11){
+                    perids="PM";
+                    if(hours>12) hours-=12;
+                }
+                if(mins<10){
+                    mins="0"+mins;
+                }
+                return `${month} ${date} | ${hours}:${mins}${perids}`;
+            }
+curDate.innerHTML=getCurrentDay() +" | "+getCurrentTime();
+    </script>
+</body>
+</html>
