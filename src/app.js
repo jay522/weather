@@ -30,6 +30,6 @@ app.get("*",(req,res)=>{
     res.render("404error");
 });
 
-app.listen(3000,()=>{
-    console.log("listening at port 3000");
+app.listen(port,()=>{
+    console.log(`listening at port ${port}`);
 });
