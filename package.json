@@ -8,7 +8,7 @@
     "start":"node src/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Geeky Shows",
+  "author": "kumar technical",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
