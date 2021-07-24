@@ -1,0 +1,2837 @@
+(this["webpackJsonpclient"] = this["webpackJsonpclient"] || []).push([["main"],{
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/App.css":
+/*!************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-oneOf-4-1!./node_modules/postcss-loader/src??postcss!./src/App.css ***!
+  \************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
+// Imports
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(true);
+// Module
+___CSS_LOADER_EXPORT___.push([module.i, "*{ padding: 0; margin: 0; box-sizing: border-box;}\r\n/* html{ font-size: 62.5%; } */\r\n\r\n.navi a{\r\n\ttext-decoration: red;\r\n}\r\n.navi a:hower{\r\n\tfont-weight: bold;\r\n\tcolor: rgba(4,0,36,1);\r\n\t/* text-decoration: rgb(26, 26, 26); */\r\n}\r\n\r\n/* home page */\r\n.home-page{\r\n\twidth: 100vw;\r\n\theight: 90vh;\r\n\tbackground: rgb(4,0,36);\r\nbackground: linear-gradient(90deg, rgba(4,0,36,1) 0%, rgba(255,255,255,1) 0%, rgba(35,84,221,1) 0%, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 51%, rgba(190,238,247,1) 51%, rgba(67,216,247,1) 100%);\r\n\tdisplay: flex;\r\n\tjustify-content: center;\r\n\tplace-items: center;\r\n}\r\n\r\n/* About page */\r\n.emp-profile{\r\n\tbox-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);\r\n\tcolor: #999;\r\n\tborder-radius: 3px;\r\n\tmargin-bottom: 15px;\r\n\tbackground: #f2f3f7;\r\n\tpadding: 30px;\r\n}\r\n\r\n/* register css */\r\n.bg-light {\r\n    background-color: #ffff !important;\r\n}\r\nbody {\r\n\tcolor: #fff;\r\n\tbackground: #63738a;\r\n\tfont-family: 'Roboto', sans-serif;\r\n}\r\n.form-control {\r\n\theight: 40px;\r\n\tbox-shadow: none;\r\n\tcolor: #969fa4;\r\n}\r\n.form-control:focus {\r\n\tborder-color: #5cb85c;\r\n}\r\n.form-control, .btn {        \r\n\tborder-radius: 3px;\r\n}\r\n.signup-content{\r\n\tbox-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);\r\n\tcolor: #999;\r\n\tborder-radius: 3px;\r\n\tmargin-bottom: 15px;\r\n\tbackground: #f2f3f7;\r\n\tpadding: 30px;\r\n}\r\n.signup-image{\r\n\tpadding-top: 80px;\r\n}\r\n.signup-image-link{\r\n\tcolor: seagreen;\r\n\tmargin-left: 80px;\r\n}\r\n.signup-image-link:hover{ \r\n\tcolor:red;\r\n }\r\n.signup-form {\r\n\twidth: auto;\r\n\tmargin: 0 auto;\r\n\t/* padding: 30px 0; */\r\n  \tfont-size: 15px;\r\n}\r\n.signup-form h2 {\r\n\tcolor: #636363;\r\n\tmargin: 0 0 15px;\r\n\tposition: relative;\r\n\ttext-align: center;\r\n}\r\n.signup-form h2:before { left: 0; } \r\n\r\n.signup-form h2:after {right: 0;}\r\n\r\n.signup-form .hint-text {\r\n\tcolor: #999;\r\n\tmargin-bottom: 30px;\r\n\ttext-align: center;\r\n}\r\n.signup-form form {\r\n\tcolor: #999;\r\n\tborder-radius: 3px;\r\n\tmargin-bottom: 15px;\r\n\tbackground: #f2f3f7;\r\n\tpadding: 30px;\r\n}\r\n.signup-form .form-group {\r\n\tmargin-bottom: 20px;\r\n}\r\n.signup-form input[type=\"checkbox\"] {\r\n\tmargin-top: 3px;\r\n}\r\n.signup-form .btn {        \r\n\tfont-size: 16px;\r\n\tfont-weight: bold;\t\t\r\n\tmin-width: 140px;\r\n\toutline: none !important;\r\n}\r\n.signup-form .row div:first-child {\r\n\tpadding-right: 10px;\r\n}\r\n.signup-form .row div:last-child {\r\n\tpadding-left: 10px;\r\n}    \t\r\n.signup-form a {\r\n\tcolor: rgb(88, 86, 86);\r\n\ttext-decoration: underline;\r\n}\r\n.signup-form a:hover {\r\n\ttext-decoration: none;\r\n}\r\n.signup-form form a {\r\n\tcolor: #5cb85c;\r\n\ttext-decoration: none;\r\n}\t\r\n.signup-form form a:hover {\r\n\ttext-decoration: underline;\r\n} \r\n/* Button */\r\n.form-button input{\r\n\tbackground-color: rgb(0, 132, 255);\r\n\tcolor: black;\r\n\tpadding: .2rem 1.5rem;\r\n\tfont-size: 1.6rem;\r\n\tposition: relative;\r\n\toverflow: hidden;\r\n}\r\n.form-button input:hover{\r\n\tbackground-color: black;\r\n\tcolor: #fff;\r\n\ttransition: all 0.5s;\r\n}\r\n.form-button input::before{\r\n\tcontent: '';\r\n\twidth: 100%;\r\n\theight: 40%;\r\n\tbackground-color: #fff;\r\n\tposition: absolute;\r\n\ttop: 0%;\r\n\tleft: 0%;\r\n\ttransform: translateX(-100%)rotate(45deg);\r\n\ttransition: all 0.6s;\r\n}\r\n.form-button input:hover::before{\r\n\ttransform: translateX(100%)rotate(45deg);\r\n}\r\n/* contact */\r\n.contact_info_item{\r\n\twidth: auto;\r\n\tbox-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);\r\n\tborder-radius: 3px;\r\n\tmargin-bottom: 15px;\r\n\tbackground: #f2f3f7;\r\n\tpadding: 10px;\r\n}\r\n.content_form_container{\r\n\twidth: auto;\r\n\tbox-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);\r\n\tborder-radius: 3px;\r\n\tmargin-bottom: 15px;\r\n\tbackground: #f8f8f8;\r\n\tpadding: 10px;\r\n}\r\n.social-btn .btn {\r\n    border: none;\r\n    margin: 10px 3px 0;\r\n    opacity: 1;\r\n}\r\n.social-btn .btn:hover {\r\n    opacity: 0.9;\r\n}\r\n.social-btn .btn-secondary, .social-btn .btn-secondary:active {\r\n    background: #507cc0 !important;\r\n}\r\n.social-btn .btn-info, .social-btn .btn-info:active {\r\n    background: #64ccf1 !important;\r\n}\r\n.social-btn .btn-danger, .social-btn .btn-danger:active {\r\n    background: #df4930 !important;\r\n}\r\n.or-seperator {\r\n    margin-top: 20px;\r\n    text-align: center;\r\n    border-top: 1px solid #ccc;\r\n}\r\n.or-seperator i {\r\n    padding: 0 10px;\r\n    background: #f7f7f7;\r\n    position: relative;\r\n    top: -11px;\r\n    z-index: 1;\r\n}   \r\n/* About css */\r\n\r\n\r\nh2 {\r\n\tcolor: #333;\r\n\ttext-align: center;\r\n\ttext-transform: uppercase;\r\n\tfont-family: \"Roboto\", sans-serif;\r\n\tfont-weight: bold;\r\n\tposition: relative;\r\n\tmargin-top: 1em!important;\r\n}\r\n.h2{\r\n\tmargin-top: 1em!important;\r\n}\r\nh2::after {\r\n\tcontent: \"\";\r\n\twidth: 100px;\r\n\tposition: absolute;\r\n\tmargin: 0 auto;\r\n\theight: 3px;\r\n\tbackground: #ffdc12;\r\n\tleft: 0;\r\n\tright: 0;\r\n\tbottom: -10px;\r\n}\r\n.carousel {\r\n\twidth: 650px;\r\n\tmargin: 0 auto;\r\n\tpadding-bottom: 50px;\r\n}\r\n.carousel .carousel-item {\r\n\tcolor: #999;\r\n\tfont-size: 14px;\r\n\ttext-align: center;\r\n\toverflow: hidden;\r\n\tmin-height: 340px;\r\n\tmargin-top: 2em;\r\n}\r\n.carousel .carousel-item a {\r\n\tcolor: #eb7245;\r\n}\r\n.carousel .img-box {\r\n\twidth: 145px;\r\n\theight: 145px;\r\n\tmargin: 0 auto;\r\n\tborder-radius: 50%;\r\n}\r\n.carousel .img-box img {\r\n\twidth: 100%;\r\n\theight: 100%;\r\n\tdisplay: block;\r\n\tborder-radius: 50%;\r\n}\r\n.carousel .testimonial {\t\r\n\tpadding: 30px 0 10px;\r\n}\r\n.carousel .overview {\t\r\n\ttext-align: center;\r\n\tpadding-bottom: 5px;\r\n}\r\n.carousel .overview b {\r\n\tcolor: #333;\r\n\tfont-size: 15px;\r\n\ttext-transform: uppercase;\r\n\tdisplay: block;\t\r\n\tpadding-bottom: 5px;\r\n}\r\n.carousel .star-rating i {\r\n\tfont-size: 18px;\r\n\tcolor: #ffdc12;\r\n}\r\n.carousel-control-prev, .carousel-control-next {\r\n\twidth: 30px!important;\r\n\theight: 30px!important;\r\n\tborder-radius: 50%!important;\r\n\tbackground: #999!important;\r\n\ttext-shadow: none!important;\r\n\ttop: 4px!important;\r\n}\r\n.carousel-control-prev i, .carousel-control-next i {\r\n\tfont-size: 20px!important;\r\n\tmargin-right: 2px!important;\r\n}\r\n.carousel-control-prev {\r\n\tleft: auto!important;\r\n\tright: 40px!important;\r\n}\r\n.carousel-control-next i {\r\n\tmargin-right: -2px!important;\r\n}\r\n.carousel .carousel-indicators {\r\n\tbottom: 15px!important;\r\n}\r\n.carousel-indicators li, .carousel-indicators li.active {\r\n\twidth: 11px!important;\r\n\theight: 1px!important;\r\n\tmargin: 1px 5px!important;\r\n\tborder-radius: 50%!important;\r\n}\r\n.carousel-indicators li {\r\n\tbackground: #e2e2e2!important;\r\n\tborder: none!important;\r\n}\r\n.carousel-indicators li.active {\t\t\r\n\tbackground: #888!important;\t\t\r\n}\r\n\r\n#notfound{\r\n\tposition: relative;\r\n\theight: 100vh;\r\n}\r\n#notfound .notfound{\r\n\tposition: absolute;\r\n\tleft: 50%;\r\n\ttop: 50%;\r\n\ttransform: translate(-50%,-50%);\r\n\t-webkit-transform: translate(-50%,-50%);\r\n\t-ms-transform: translate(-50%,-50%);\r\n}\r\n.notfound{\r\n\tmax-width: 920px;\r\n\twidth: 100%;\r\n\tline-height: 1.4;\r\n\ttext-align: center;\r\n\tpadding-left: 15px;\r\n\tpadding-right: 15px;\r\n}\r\n.notfound .notfound-404{\r\n\tposition: absolute;\r\n\theight: 100px;\r\n\ttop: 0;\r\n\tleft: 50%;\r\n\ttransform: translate(-50%);\r\n\t-webkit-transform: translate(-50%);\r\n\t-ms-transform: translate(-50%);\r\n\tz-index: -1;\r\n}\r\n.notfound .notfound-404 h1{\r\n\tfont-family: \"Maven Pro\",sans-serif;\r\n\tcolor: #ececec;\r\n\tfont-weight: 900;\r\n\tfont-size: 276px;\r\n\tmargin: 0px;\r\n\tposition: absolute;\r\n\tleft: 50%;\r\n\ttop: 50%;\r\n\ttransform: translate(-50%,-50%);\r\n\t-webkit-transform: translate(-50%,-50%);\r\n\t-ms-transform: translate(-50%,-50%);\r\n}\r\n.notfound h2{\r\n\tfont-family: \"Maven Pro\",sans-serif;\r\n\tcolor: #000;\r\n\tfont-weight: 900;\r\n\tfont-size: 46px;\r\n\tmargin: 0px;\r\n\ttext-transform: uppercase;\r\n}\r\n.notfound p{\r\n\tfont-family: \"Maven Pro\",sans-serif;\r\n\tcolor: #000;\r\n\tfont-weight: 400;\r\n\tfont-size: 16px;\r\n\tmargin-top: 15px;\r\n\ttext-transform: uppercase;\r\n}\r\n.notfound a{\r\n\tfont-family: \"Maven Pro\",sans-serif;\r\n\tcolor: #fff;\r\n\tfont-weight: 400;\r\n\tfont-size: 14px;\r\n\ttext-decoration: none;\r\n\ttext-transform: uppercase;\r\n\tbackground: #507cc0;\r\n\tdisplay: inline-block;\r\n\tpadding: 16px 38px;\r\n\tborder: 2px solid transparent;\r\n\tborder-radius: 40px;\r\n\ttransition: 0.2s all;\r\n\t-webkit-transition: 0.2s all;\r\n}\r\n.notfound a:hover{\r\n\tbackground: #fff;\r\n\tborder-color: teal;\r\n\tcolor: teal;\r\n}\r\n@media only screen and (max-width:480px){\r\n\t.notfound .notfound-404 h1{\r\n\t\tfont-size: 162px;\r\n\t}\r\n\t.notfound h2{font-size: 26px;}\r\n}", "",{"version":3,"sources":["webpack://src/App.css"],"names":[],"mappings":"AAAA,GAAG,UAAU,EAAE,SAAS,EAAE,sBAAsB,CAAC;AACjD,8BAA8B;;AAE9B;CACC,oBAAoB;AACrB;AACA;CACC,iBAAiB;CACjB,qBAAqB;CACrB,sCAAsC;AACvC;;AAEA,cAAc;AACd;CACC,YAAY;CACZ,YAAY;CACZ,uBAAuB;AACxB,sMAAsM;CACrM,aAAa;CACb,uBAAuB;CACvB,mBAAmB;AACpB;;AAEA,eAAe;AACf;CACC,0CAA0C;CAC1C,WAAW;CACX,kBAAkB;CAClB,mBAAmB;CACnB,mBAAmB;CACnB,aAAa;AACd;;AAEA,iBAAiB;AACjB;IACI,kCAAkC;AACtC;AACA;CACC,WAAW;CACX,mBAAmB;CACnB,iCAAiC;AAClC;AACA;CACC,YAAY;CACZ,gBAAgB;CAChB,cAAc;AACf;AACA;CACC,qBAAqB;AACtB;AACA;CACC,kBAAkB;AACnB;AACA;CACC,0CAA0C;CAC1C,WAAW;CACX,kBAAkB;CAClB,mBAAmB;CACnB,mBAAmB;CACnB,aAAa;AACd;AACA;CACC,iBAAiB;AAClB;AACA;CACC,eAAe;CACf,iBAAiB;AAClB;AACA;CACC,SAAS;CACT;AACD;CACC,WAAW;CACX,cAAc;CACd,qBAAqB;GACnB,eAAe;AAClB;AACA;CACC,cAAc;CACd,gBAAgB;CAChB,kBAAkB;CAClB,kBAAkB;AACnB;AACA,yBAAyB,OAAO,EAAE;;AAElC,uBAAuB,QAAQ,CAAC;;AAEhC;CACC,WAAW;CACX,mBAAmB;CACnB,kBAAkB;AACnB;AACA;CACC,WAAW;CACX,kBAAkB;CAClB,mBAAmB;CACnB,mBAAmB;CACnB,aAAa;AACd;AACA;CACC,mBAAmB;AACpB;AACA;CACC,eAAe;AAChB;AACA;CACC,eAAe;CACf,iBAAiB;CACjB,gBAAgB;CAChB,wBAAwB;AACzB;AACA;CACC,mBAAmB;AACpB;AACA;CACC,kBAAkB;AACnB;AACA;CACC,sBAAsB;CACtB,0BAA0B;AAC3B;AACA;CACC,qBAAqB;AACtB;AACA;CACC,cAAc;CACd,qBAAqB;AACtB;AACA;CACC,0BAA0B;AAC3B;AACA,WAAW;AACX;CACC,kCAAkC;CAClC,YAAY;CACZ,qBAAqB;CACrB,iBAAiB;CACjB,kBAAkB;CAClB,gBAAgB;AACjB;AACA;CACC,uBAAuB;CACvB,WAAW;CACX,oBAAoB;AACrB;AACA;CACC,WAAW;CACX,WAAW;CACX,WAAW;CACX,sBAAsB;CACtB,kBAAkB;CAClB,OAAO;CACP,QAAQ;CACR,yCAAyC;CACzC,oBAAoB;AACrB;AACA;CACC,wCAAwC;AACzC;AACA,YAAY;AACZ;CACC,WAAW;CACX,0CAA0C;CAC1C,kBAAkB;CAClB,mBAAmB;CACnB,mBAAmB;CACnB,aAAa;AACd;AACA;CACC,WAAW;CACX,0CAA0C;CAC1C,kBAAkB;CAClB,mBAAmB;CACnB,mBAAmB;CACnB,aAAa;AACd;AACA;IACI,YAAY;IACZ,kBAAkB;IAClB,UAAU;AACd;AACA;IACI,YAAY;AAChB;AACA;IACI,8BAA8B;AAClC;AACA;IACI,8BAA8B;AAClC;AACA;IACI,8BAA8B;AAClC;AACA;IACI,gBAAgB;IAChB,kBAAkB;IAClB,0BAA0B;AAC9B;AACA;IACI,eAAe;IACf,mBAAmB;IACnB,kBAAkB;IAClB,UAAU;IACV,UAAU;AACd;AACA,cAAc;;;AAGd;CACC,WAAW;CACX,kBAAkB;CAClB,yBAAyB;CACzB,iCAAiC;CACjC,iBAAiB;CACjB,kBAAkB;CAClB,yBAAyB;AAC1B;AACA;CACC,yBAAyB;AAC1B;AACA;CACC,WAAW;CACX,YAAY;CACZ,kBAAkB;CAClB,cAAc;CACd,WAAW;CACX,mBAAmB;CACnB,OAAO;CACP,QAAQ;CACR,aAAa;AACd;AACA;CACC,YAAY;CACZ,cAAc;CACd,oBAAoB;AACrB;AACA;CACC,WAAW;CACX,eAAe;CACf,kBAAkB;CAClB,gBAAgB;CAChB,iBAAiB;CACjB,eAAe;AAChB;AACA;CACC,cAAc;AACf;AACA;CACC,YAAY;CACZ,aAAa;CACb,cAAc;CACd,kBAAkB;AACnB;AACA;CACC,WAAW;CACX,YAAY;CACZ,cAAc;CACd,kBAAkB;AACnB;AACA;CACC,oBAAoB;AACrB;AACA;CACC,kBAAkB;CAClB,mBAAmB;AACpB;AACA;CACC,WAAW;CACX,eAAe;CACf,yBAAyB;CACzB,cAAc;CACd,mBAAmB;AACpB;AACA;CACC,eAAe;CACf,cAAc;AACf;AACA;CACC,qBAAqB;CACrB,sBAAsB;CACtB,4BAA4B;CAC5B,0BAA0B;CAC1B,2BAA2B;CAC3B,kBAAkB;AACnB;AACA;CACC,yBAAyB;CACzB,2BAA2B;AAC5B;AACA;CACC,oBAAoB;CACpB,qBAAqB;AACtB;AACA;CACC,4BAA4B;AAC7B;AACA;CACC,sBAAsB;AACvB;AACA;CACC,qBAAqB;CACrB,qBAAqB;CACrB,yBAAyB;CACzB,4BAA4B;AAC7B;AACA;CACC,6BAA6B;CAC7B,sBAAsB;AACvB;AACA;CACC,0BAA0B;AAC3B;;AAEA;CACC,kBAAkB;CAClB,aAAa;AACd;AACA;CACC,kBAAkB;CAClB,SAAS;CACT,QAAQ;CACR,+BAA+B;CAC/B,uCAAuC;CACvC,mCAAmC;AACpC;AACA;CACC,gBAAgB;CAChB,WAAW;CACX,gBAAgB;CAChB,kBAAkB;CAClB,kBAAkB;CAClB,mBAAmB;AACpB;AACA;CACC,kBAAkB;CAClB,aAAa;CACb,MAAM;CACN,SAAS;CACT,0BAA0B;CAC1B,kCAAkC;CAClC,8BAA8B;CAC9B,WAAW;AACZ;AACA;CACC,mCAAmC;CACnC,cAAc;CACd,gBAAgB;CAChB,gBAAgB;CAChB,WAAW;CACX,kBAAkB;CAClB,SAAS;CACT,QAAQ;CACR,+BAA+B;CAC/B,uCAAuC;CACvC,mCAAmC;AACpC;AACA;CACC,mCAAmC;CACnC,WAAW;CACX,gBAAgB;CAChB,eAAe;CACf,WAAW;CACX,yBAAyB;AAC1B;AACA;CACC,mCAAmC;CACnC,WAAW;CACX,gBAAgB;CAChB,eAAe;CACf,gBAAgB;CAChB,yBAAyB;AAC1B;AACA;CACC,mCAAmC;CACnC,WAAW;CACX,gBAAgB;CAChB,eAAe;CACf,qBAAqB;CACrB,yBAAyB;CACzB,mBAAmB;CACnB,qBAAqB;CACrB,kBAAkB;CAClB,6BAA6B;CAC7B,mBAAmB;CACnB,oBAAoB;CACpB,4BAA4B;AAC7B;AACA;CACC,gBAAgB;CAChB,kBAAkB;CAClB,WAAW;AACZ;AACA;CACC;EACC,gBAAgB;CACjB;CACA,aAAa,eAAe,CAAC;AAC9B","sourcesContent":["*{ padding: 0; margin: 0; box-sizing: border-box;}\r\n/* html{ font-size: 62.5%; } */\r\n\r\n.navi a{\r\n\ttext-decoration: red;\r\n}\r\n.navi a:hower{\r\n\tfont-weight: bold;\r\n\tcolor: rgba(4,0,36,1);\r\n\t/* text-decoration: rgb(26, 26, 26); */\r\n}\r\n\r\n/* home page */\r\n.home-page{\r\n\twidth: 100vw;\r\n\theight: 90vh;\r\n\tbackground: rgb(4,0,36);\r\nbackground: linear-gradient(90deg, rgba(4,0,36,1) 0%, rgba(255,255,255,1) 0%, rgba(35,84,221,1) 0%, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 51%, rgba(190,238,247,1) 51%, rgba(67,216,247,1) 100%);\r\n\tdisplay: flex;\r\n\tjustify-content: center;\r\n\tplace-items: center;\r\n}\r\n\r\n/* About page */\r\n.emp-profile{\r\n\tbox-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);\r\n\tcolor: #999;\r\n\tborder-radius: 3px;\r\n\tmargin-bottom: 15px;\r\n\tbackground: #f2f3f7;\r\n\tpadding: 30px;\r\n}\r\n\r\n/* register css */\r\n.bg-light {\r\n    background-color: #ffff !important;\r\n}\r\nbody {\r\n\tcolor: #fff;\r\n\tbackground: #63738a;\r\n\tfont-family: 'Roboto', sans-serif;\r\n}\r\n.form-control {\r\n\theight: 40px;\r\n\tbox-shadow: none;\r\n\tcolor: #969fa4;\r\n}\r\n.form-control:focus {\r\n\tborder-color: #5cb85c;\r\n}\r\n.form-control, .btn {        \r\n\tborder-radius: 3px;\r\n}\r\n.signup-content{\r\n\tbox-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);\r\n\tcolor: #999;\r\n\tborder-radius: 3px;\r\n\tmargin-bottom: 15px;\r\n\tbackground: #f2f3f7;\r\n\tpadding: 30px;\r\n}\r\n.signup-image{\r\n\tpadding-top: 80px;\r\n}\r\n.signup-image-link{\r\n\tcolor: seagreen;\r\n\tmargin-left: 80px;\r\n}\r\n.signup-image-link:hover{ \r\n\tcolor:red;\r\n }\r\n.signup-form {\r\n\twidth: auto;\r\n\tmargin: 0 auto;\r\n\t/* padding: 30px 0; */\r\n  \tfont-size: 15px;\r\n}\r\n.signup-form h2 {\r\n\tcolor: #636363;\r\n\tmargin: 0 0 15px;\r\n\tposition: relative;\r\n\ttext-align: center;\r\n}\r\n.signup-form h2:before { left: 0; } \r\n\r\n.signup-form h2:after {right: 0;}\r\n\r\n.signup-form .hint-text {\r\n\tcolor: #999;\r\n\tmargin-bottom: 30px;\r\n\ttext-align: center;\r\n}\r\n.signup-form form {\r\n\tcolor: #999;\r\n\tborder-radius: 3px;\r\n\tmargin-bottom: 15px;\r\n\tbackground: #f2f3f7;\r\n\tpadding: 30px;\r\n}\r\n.signup-form .form-group {\r\n\tmargin-bottom: 20px;\r\n}\r\n.signup-form input[type=\"checkbox\"] {\r\n\tmargin-top: 3px;\r\n}\r\n.signup-form .btn {        \r\n\tfont-size: 16px;\r\n\tfont-weight: bold;\t\t\r\n\tmin-width: 140px;\r\n\toutline: none !important;\r\n}\r\n.signup-form .row div:first-child {\r\n\tpadding-right: 10px;\r\n}\r\n.signup-form .row div:last-child {\r\n\tpadding-left: 10px;\r\n}    \t\r\n.signup-form a {\r\n\tcolor: rgb(88, 86, 86);\r\n\ttext-decoration: underline;\r\n}\r\n.signup-form a:hover {\r\n\ttext-decoration: none;\r\n}\r\n.signup-form form a {\r\n\tcolor: #5cb85c;\r\n\ttext-decoration: none;\r\n}\t\r\n.signup-form form a:hover {\r\n\ttext-decoration: underline;\r\n} \r\n/* Button */\r\n.form-button input{\r\n\tbackground-color: rgb(0, 132, 255);\r\n\tcolor: black;\r\n\tpadding: .2rem 1.5rem;\r\n\tfont-size: 1.6rem;\r\n\tposition: relative;\r\n\toverflow: hidden;\r\n}\r\n.form-button input:hover{\r\n\tbackground-color: black;\r\n\tcolor: #fff;\r\n\ttransition: all 0.5s;\r\n}\r\n.form-button input::before{\r\n\tcontent: '';\r\n\twidth: 100%;\r\n\theight: 40%;\r\n\tbackground-color: #fff;\r\n\tposition: absolute;\r\n\ttop: 0%;\r\n\tleft: 0%;\r\n\ttransform: translateX(-100%)rotate(45deg);\r\n\ttransition: all 0.6s;\r\n}\r\n.form-button input:hover::before{\r\n\ttransform: translateX(100%)rotate(45deg);\r\n}\r\n/* contact */\r\n.contact_info_item{\r\n\twidth: auto;\r\n\tbox-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);\r\n\tborder-radius: 3px;\r\n\tmargin-bottom: 15px;\r\n\tbackground: #f2f3f7;\r\n\tpadding: 10px;\r\n}\r\n.content_form_container{\r\n\twidth: auto;\r\n\tbox-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);\r\n\tborder-radius: 3px;\r\n\tmargin-bottom: 15px;\r\n\tbackground: #f8f8f8;\r\n\tpadding: 10px;\r\n}\r\n.social-btn .btn {\r\n    border: none;\r\n    margin: 10px 3px 0;\r\n    opacity: 1;\r\n}\r\n.social-btn .btn:hover {\r\n    opacity: 0.9;\r\n}\r\n.social-btn .btn-secondary, .social-btn .btn-secondary:active {\r\n    background: #507cc0 !important;\r\n}\r\n.social-btn .btn-info, .social-btn .btn-info:active {\r\n    background: #64ccf1 !important;\r\n}\r\n.social-btn .btn-danger, .social-btn .btn-danger:active {\r\n    background: #df4930 !important;\r\n}\r\n.or-seperator {\r\n    margin-top: 20px;\r\n    text-align: center;\r\n    border-top: 1px solid #ccc;\r\n}\r\n.or-seperator i {\r\n    padding: 0 10px;\r\n    background: #f7f7f7;\r\n    position: relative;\r\n    top: -11px;\r\n    z-index: 1;\r\n}   \r\n/* About css */\r\n\r\n\r\nh2 {\r\n\tcolor: #333;\r\n\ttext-align: center;\r\n\ttext-transform: uppercase;\r\n\tfont-family: \"Roboto\", sans-serif;\r\n\tfont-weight: bold;\r\n\tposition: relative;\r\n\tmargin-top: 1em!important;\r\n}\r\n.h2{\r\n\tmargin-top: 1em!important;\r\n}\r\nh2::after {\r\n\tcontent: \"\";\r\n\twidth: 100px;\r\n\tposition: absolute;\r\n\tmargin: 0 auto;\r\n\theight: 3px;\r\n\tbackground: #ffdc12;\r\n\tleft: 0;\r\n\tright: 0;\r\n\tbottom: -10px;\r\n}\r\n.carousel {\r\n\twidth: 650px;\r\n\tmargin: 0 auto;\r\n\tpadding-bottom: 50px;\r\n}\r\n.carousel .carousel-item {\r\n\tcolor: #999;\r\n\tfont-size: 14px;\r\n\ttext-align: center;\r\n\toverflow: hidden;\r\n\tmin-height: 340px;\r\n\tmargin-top: 2em;\r\n}\r\n.carousel .carousel-item a {\r\n\tcolor: #eb7245;\r\n}\r\n.carousel .img-box {\r\n\twidth: 145px;\r\n\theight: 145px;\r\n\tmargin: 0 auto;\r\n\tborder-radius: 50%;\r\n}\r\n.carousel .img-box img {\r\n\twidth: 100%;\r\n\theight: 100%;\r\n\tdisplay: block;\r\n\tborder-radius: 50%;\r\n}\r\n.carousel .testimonial {\t\r\n\tpadding: 30px 0 10px;\r\n}\r\n.carousel .overview {\t\r\n\ttext-align: center;\r\n\tpadding-bottom: 5px;\r\n}\r\n.carousel .overview b {\r\n\tcolor: #333;\r\n\tfont-size: 15px;\r\n\ttext-transform: uppercase;\r\n\tdisplay: block;\t\r\n\tpadding-bottom: 5px;\r\n}\r\n.carousel .star-rating i {\r\n\tfont-size: 18px;\r\n\tcolor: #ffdc12;\r\n}\r\n.carousel-control-prev, .carousel-control-next {\r\n\twidth: 30px!important;\r\n\theight: 30px!important;\r\n\tborder-radius: 50%!important;\r\n\tbackground: #999!important;\r\n\ttext-shadow: none!important;\r\n\ttop: 4px!important;\r\n}\r\n.carousel-control-prev i, .carousel-control-next i {\r\n\tfont-size: 20px!important;\r\n\tmargin-right: 2px!important;\r\n}\r\n.carousel-control-prev {\r\n\tleft: auto!important;\r\n\tright: 40px!important;\r\n}\r\n.carousel-control-next i {\r\n\tmargin-right: -2px!important;\r\n}\r\n.carousel .carousel-indicators {\r\n\tbottom: 15px!important;\r\n}\r\n.carousel-indicators li, .carousel-indicators li.active {\r\n\twidth: 11px!important;\r\n\theight: 1px!important;\r\n\tmargin: 1px 5px!important;\r\n\tborder-radius: 50%!important;\r\n}\r\n.carousel-indicators li {\r\n\tbackground: #e2e2e2!important;\r\n\tborder: none!important;\r\n}\r\n.carousel-indicators li.active {\t\t\r\n\tbackground: #888!important;\t\t\r\n}\r\n\r\n#notfound{\r\n\tposition: relative;\r\n\theight: 100vh;\r\n}\r\n#notfound .notfound{\r\n\tposition: absolute;\r\n\tleft: 50%;\r\n\ttop: 50%;\r\n\ttransform: translate(-50%,-50%);\r\n\t-webkit-transform: translate(-50%,-50%);\r\n\t-ms-transform: translate(-50%,-50%);\r\n}\r\n.notfound{\r\n\tmax-width: 920px;\r\n\twidth: 100%;\r\n\tline-height: 1.4;\r\n\ttext-align: center;\r\n\tpadding-left: 15px;\r\n\tpadding-right: 15px;\r\n}\r\n.notfound .notfound-404{\r\n\tposition: absolute;\r\n\theight: 100px;\r\n\ttop: 0;\r\n\tleft: 50%;\r\n\ttransform: translate(-50%);\r\n\t-webkit-transform: translate(-50%);\r\n\t-ms-transform: translate(-50%);\r\n\tz-index: -1;\r\n}\r\n.notfound .notfound-404 h1{\r\n\tfont-family: \"Maven Pro\",sans-serif;\r\n\tcolor: #ececec;\r\n\tfont-weight: 900;\r\n\tfont-size: 276px;\r\n\tmargin: 0px;\r\n\tposition: absolute;\r\n\tleft: 50%;\r\n\ttop: 50%;\r\n\ttransform: translate(-50%,-50%);\r\n\t-webkit-transform: translate(-50%,-50%);\r\n\t-ms-transform: translate(-50%,-50%);\r\n}\r\n.notfound h2{\r\n\tfont-family: \"Maven Pro\",sans-serif;\r\n\tcolor: #000;\r\n\tfont-weight: 900;\r\n\tfont-size: 46px;\r\n\tmargin: 0px;\r\n\ttext-transform: uppercase;\r\n}\r\n.notfound p{\r\n\tfont-family: \"Maven Pro\",sans-serif;\r\n\tcolor: #000;\r\n\tfont-weight: 400;\r\n\tfont-size: 16px;\r\n\tmargin-top: 15px;\r\n\ttext-transform: uppercase;\r\n}\r\n.notfound a{\r\n\tfont-family: \"Maven Pro\",sans-serif;\r\n\tcolor: #fff;\r\n\tfont-weight: 400;\r\n\tfont-size: 14px;\r\n\ttext-decoration: none;\r\n\ttext-transform: uppercase;\r\n\tbackground: #507cc0;\r\n\tdisplay: inline-block;\r\n\tpadding: 16px 38px;\r\n\tborder: 2px solid transparent;\r\n\tborder-radius: 40px;\r\n\ttransition: 0.2s all;\r\n\t-webkit-transition: 0.2s all;\r\n}\r\n.notfound a:hover{\r\n\tbackground: #fff;\r\n\tborder-color: teal;\r\n\tcolor: teal;\r\n}\r\n@media only screen and (max-width:480px){\r\n\t.notfound .notfound-404 h1{\r\n\t\tfont-size: 162px;\r\n\t}\r\n\t.notfound h2{font-size: 26px;}\r\n}"],"sourceRoot":""}]);
+// Exports
+/* harmony default export */ __webpack_exports__["default"] = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/index.css":
+/*!**************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-oneOf-4-1!./node_modules/postcss-loader/src??postcss!./src/index.css ***!
+  \**************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
+// Imports
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(true);
+// Module
+___CSS_LOADER_EXPORT___.push([module.i, "", "",{"version":3,"sources":[],"names":[],"mappings":"","sourceRoot":""}]);
+// Exports
+/* harmony default export */ __webpack_exports__["default"] = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
+/***/ "./src/App.css":
+/*!*********************!*\
+  !*** ./src/App.css ***!
+  \*********************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var api = __webpack_require__(/*! ../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+            var content = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-4-1!../node_modules/postcss-loader/src??postcss!./App.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/App.css");
+
+            content = content.__esModule ? content.default : content;
+
+            if (typeof content === 'string') {
+              content = [[module.i, content, '']];
+            }
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = api(content, options);
+
+
+if (true) {
+  if (!content.locals || module.hot.invalidate) {
+    var isEqualLocals = function isEqualLocals(a, b, isNamedExport) {
+  if (!a && b || a && !b) {
+    return false;
+  }
+
+  var p;
+
+  for (p in a) {
+    if (isNamedExport && p === 'default') {
+      // eslint-disable-next-line no-continue
+      continue;
+    }
+
+    if (a[p] !== b[p]) {
+      return false;
+    }
+  }
+
+  for (p in b) {
+    if (isNamedExport && p === 'default') {
+      // eslint-disable-next-line no-continue
+      continue;
+    }
+
+    if (!a[p]) {
+      return false;
+    }
+  }
+
+  return true;
+};
+    var oldLocals = content.locals;
+
+    module.hot.accept(
+      /*! !../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-4-1!../node_modules/postcss-loader/src??postcss!./App.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/App.css",
+      function () {
+        content = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-4-1!../node_modules/postcss-loader/src??postcss!./App.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/App.css");
+
+              content = content.__esModule ? content.default : content;
+
+              if (typeof content === 'string') {
+                content = [[module.i, content, '']];
+              }
+
+              if (!isEqualLocals(oldLocals, content.locals)) {
+                module.hot.invalidate();
+
+                return;
+              }
+
+              oldLocals = content.locals;
+
+              update(content);
+      }
+    )
+  }
+
+  module.hot.dispose(function() {
+    update();
+  });
+}
+
+module.exports = content.locals || {};
+
+/***/ }),
+
+/***/ "./src/App.js":
+/*!********************!*\
+  !*** ./src/App.js ***!
+  \********************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* WEBPACK VAR INJECTION */(function(__react_refresh_utils__, __react_refresh_error_overlay__) {/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _App_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./App.css */ "./src/App.css");
+/* harmony import */ var _App_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_App_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var _node_modules_bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../node_modules/bootstrap/dist/css/bootstrap.min.css */ "./node_modules/bootstrap/dist/css/bootstrap.min.css");
+/* harmony import */ var _node_modules_bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_node_modules_bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _node_modules_bootstrap_dist_js_bootstrap_bundle__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../node_modules/bootstrap/dist/js/bootstrap.bundle */ "./node_modules/bootstrap/dist/js/bootstrap.bundle.js");
+/* harmony import */ var _node_modules_bootstrap_dist_js_bootstrap_bundle__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_node_modules_bootstrap_dist_js_bootstrap_bundle__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _components_Home__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./components/Home */ "./src/components/Home.js");
+/* harmony import */ var _components_Navbar__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./components/Navbar */ "./src/components/Navbar.js");
+/* harmony import */ var _components_About__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./components/About */ "./src/components/About.js");
+/* harmony import */ var _components_Login__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./components/Login */ "./src/components/Login.js");
+/* harmony import */ var _components_Signup__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./components/Signup */ "./src/components/Signup.js");
+/* harmony import */ var _components_Contact__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./components/Contact */ "./src/components/Contact.js");
+/* harmony import */ var _components_Errorpage__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./components/Errorpage */ "./src/components/Errorpage.jsx");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_12__);
+__webpack_require__.$Refresh$.runtime = __webpack_require__(/*! ./node_modules/react-refresh/runtime.js */ "./node_modules/react-refresh/runtime.js");
+__webpack_require__.$Refresh$.setup(module.i);
+
+var _jsxFileName = "D:\\reactjs2\\MERN\\client\\src\\App.js";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function App() {
+  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_12__["jsxDEV"])("div", {
+    children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_12__["jsxDEV"])(_components_Navbar__WEBPACK_IMPORTED_MODULE_6__["default"], {}, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 17,
+      columnNumber: 7
+    }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_12__["jsxDEV"])(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Switch"], {
+      children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_12__["jsxDEV"])(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
+        exact: true,
+        path: "/",
+        children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_12__["jsxDEV"])(_components_Home__WEBPACK_IMPORTED_MODULE_5__["default"], {}, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 20,
+          columnNumber: 9
+        }, this)
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 19,
+        columnNumber: 7
+      }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_12__["jsxDEV"])(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
+        exact: true,
+        path: "/about",
+        children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_12__["jsxDEV"])(_components_About__WEBPACK_IMPORTED_MODULE_7__["default"], {}, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 24,
+          columnNumber: 9
+        }, this)
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 23,
+        columnNumber: 7
+      }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_12__["jsxDEV"])(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
+        exact: true,
+        path: "/contact",
+        children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_12__["jsxDEV"])(_components_Contact__WEBPACK_IMPORTED_MODULE_10__["default"], {}, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 28,
+          columnNumber: 9
+        }, this)
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 27,
+        columnNumber: 7
+      }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_12__["jsxDEV"])(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
+        exact: true,
+        path: "/login",
+        children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_12__["jsxDEV"])(_components_Login__WEBPACK_IMPORTED_MODULE_8__["default"], {}, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 32,
+          columnNumber: 9
+        }, this)
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 31,
+        columnNumber: 7
+      }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_12__["jsxDEV"])(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
+        exact: true,
+        path: "/signup",
+        children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_12__["jsxDEV"])(_components_Signup__WEBPACK_IMPORTED_MODULE_9__["default"], {}, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 36,
+          columnNumber: 9
+        }, this)
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 35,
+        columnNumber: 7
+      }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_12__["jsxDEV"])(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
+        children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_12__["jsxDEV"])(_components_Errorpage__WEBPACK_IMPORTED_MODULE_11__["default"], {}, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 39,
+          columnNumber: 9
+        }, this)
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 38,
+        columnNumber: 7
+      }, this)]
+    }, void 0, true, {
+      fileName: _jsxFileName,
+      lineNumber: 18,
+      columnNumber: 7
+    }, this)]
+  }, void 0, true, {
+    fileName: _jsxFileName,
+    lineNumber: 16,
+    columnNumber: 5
+  }, this);
+}
+
+_c = App;
+/* harmony default export */ __webpack_exports__["default"] = (App);
+
+var _c;
+
+__webpack_require__.$Refresh$.register(_c, "App");
+
+const currentExports = __react_refresh_utils__.getModuleExports(module.i);
+__react_refresh_utils__.registerExportsForReactRefresh(currentExports, module.i);
+
+if (true) {
+  const isHotUpdate = !!module.hot.data;
+  const prevExports = isHotUpdate ? module.hot.data.prevExports : null;
+
+  if (__react_refresh_utils__.isReactRefreshBoundary(currentExports)) {
+    module.hot.dispose(
+      /**
+       * A callback to performs a full refresh if React has unrecoverable errors,
+       * and also caches the to-be-disposed module.
+       * @param {*} data A hot module data object from Webpack HMR.
+       * @returns {void}
+       */
+      function hotDisposeCallback(data) {
+        // We have to mutate the data object to get data registered and cached
+        data.prevExports = currentExports;
+      }
+    );
+    module.hot.accept(
+      /**
+       * An error handler to allow self-recovering behaviours.
+       * @param {Error} error An error occurred during evaluation of a module.
+       * @returns {void}
+       */
+      function hotErrorHandler(error) {
+        if (
+          typeof __react_refresh_error_overlay__ !== 'undefined' &&
+          __react_refresh_error_overlay__
+        ) {
+          __react_refresh_error_overlay__.handleRuntimeError(error);
+        }
+
+        if (typeof __react_refresh_test__ !== 'undefined' && __react_refresh_test__) {
+          if (window.onHotAcceptError) {
+            window.onHotAcceptError(error.message);
+          }
+        }
+
+        __webpack_require__.c[module.i].hot.accept(hotErrorHandler);
+      }
+    );
+
+    if (isHotUpdate) {
+      if (
+        __react_refresh_utils__.isReactRefreshBoundary(prevExports) &&
+        __react_refresh_utils__.shouldInvalidateReactRefreshBoundary(prevExports, currentExports)
+      ) {
+        module.hot.invalidate();
+      } else {
+        __react_refresh_utils__.enqueueUpdate(
+          /**
+           * A function to dismiss the error overlay after performing React refresh.
+           * @returns {void}
+           */
+          function updateCallback() {
+            if (
+              typeof __react_refresh_error_overlay__ !== 'undefined' &&
+              __react_refresh_error_overlay__
+            ) {
+              __react_refresh_error_overlay__.clearRuntimeErrors();
+            }
+          }
+        );
+      }
+    }
+  } else {
+    if (isHotUpdate && __react_refresh_utils__.isReactRefreshBoundary(prevExports)) {
+      module.hot.invalidate();
+    }
+  }
+}
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js */ "./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js"), __webpack_require__(/*! ./node_modules/react-dev-utils/refreshOverlayInterop.js */ "./node_modules/react-dev-utils/refreshOverlayInterop.js")))
+
+/***/ }),
+
+/***/ "./src/components/About.js":
+/*!*********************************!*\
+  !*** ./src/components/About.js ***!
+  \*********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* WEBPACK VAR INJECTION */(function(__react_refresh_utils__, __react_refresh_error_overlay__) {/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _img_vip_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../img/vip.jpg */ "./src/img/vip.jpg");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__);
+__webpack_require__.$Refresh$.runtime = __webpack_require__(/*! ./node_modules/react-refresh/runtime.js */ "./node_modules/react-refresh/runtime.js");
+__webpack_require__.$Refresh$.setup(module.i);
+
+var _jsxFileName = "D:\\reactjs2\\MERN\\client\\src\\components\\About.js";
+
+
+
+
+
+const About = () => {
+  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["Fragment"], {
+    children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("div", {
+      className: "container emp-profile",
+      children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("form", {
+        method: "",
+        children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("div", {
+          className: "row",
+          children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("div", {
+            className: "col-md-4",
+            children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("img", {
+              src: _img_vip_jpg__WEBPACK_IMPORTED_MODULE_1__["default"],
+              alt: "logo",
+              height: "80px",
+              width: "90px"
+            }, void 0, false, {
+              fileName: _jsxFileName,
+              lineNumber: 11,
+              columnNumber: 29
+            }, undefined)
+          }, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 10,
+            columnNumber: 25
+          }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("div", {
+            className: "col-md-6",
+            children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("div", {
+              className: "profile-head",
+              children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("h5", {
+                children: "Jay Kumar"
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 15,
+                columnNumber: 33
+              }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("h6", {
+                children: "Web Developer"
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 16,
+                columnNumber: 33
+              }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("p", {
+                className: "profile-rating mt-3 mb-5",
+                children: ["RANKING: ", /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("span", {
+                  children: "9/10"
+                }, void 0, false, {
+                  fileName: _jsxFileName,
+                  lineNumber: 17,
+                  columnNumber: 82
+                }, undefined)]
+              }, void 0, true, {
+                fileName: _jsxFileName,
+                lineNumber: 17,
+                columnNumber: 33
+              }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("ul", {
+                className: "nav nav-tabs",
+                role: "tablist",
+                children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("li", {
+                  className: "nav-item",
+                  children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("a", {
+                    className: "nav-link active",
+                    id: "home-tab",
+                    "data-toggle": "tab",
+                    href: "#home",
+                    role: "tab",
+                    children: "About"
+                  }, void 0, false, {
+                    fileName: _jsxFileName,
+                    lineNumber: 21,
+                    columnNumber: 41
+                  }, undefined)
+                }, void 0, false, {
+                  fileName: _jsxFileName,
+                  lineNumber: 20,
+                  columnNumber: 37
+                }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("li", {
+                  className: "nav-link",
+                  children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("a", {
+                    className: "nav-link active",
+                    id: "profile-tab",
+                    "data-toggle": "tab",
+                    href: "#profile",
+                    role: "tab",
+                    children: "Timeline"
+                  }, void 0, false, {
+                    fileName: _jsxFileName,
+                    lineNumber: 24,
+                    columnNumber: 37
+                  }, undefined)
+                }, void 0, false, {
+                  fileName: _jsxFileName,
+                  lineNumber: 23,
+                  columnNumber: 37
+                }, undefined)]
+              }, void 0, true, {
+                fileName: _jsxFileName,
+                lineNumber: 19,
+                columnNumber: 33
+              }, undefined)]
+            }, void 0, true, {
+              fileName: _jsxFileName,
+              lineNumber: 14,
+              columnNumber: 29
+            }, undefined)
+          }, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 13,
+            columnNumber: 25
+          }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("div", {
+            className: "col-md-2",
+            children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("input", {
+              type: "submit",
+              className: "profile-edit-btn",
+              name: "btnAddMore",
+              value: "Edit Profile"
+            }, void 0, false, {
+              fileName: _jsxFileName,
+              lineNumber: 30,
+              columnNumber: 29
+            }, undefined)
+          }, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 29,
+            columnNumber: 25
+          }, undefined)]
+        }, void 0, true, {
+          fileName: _jsxFileName,
+          lineNumber: 9,
+          columnNumber: 21
+        }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("div", {
+          className: "row",
+          children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("div", {
+            className: "col-md-4",
+            children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("div", {
+              className: "profile-work",
+              children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("p", {
+                children: "WORK LINK"
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 37,
+                columnNumber: 33
+              }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("a", {
+                href: "#",
+                children: "Youtube"
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 38,
+                columnNumber: 33
+              }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("br", {}, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 38,
+                columnNumber: 56
+              }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("a", {
+                href: "#",
+                children: "Youtube"
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 39,
+                columnNumber: 33
+              }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("br", {}, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 39,
+                columnNumber: 56
+              }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("a", {
+                href: "#",
+                children: "Youtube"
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 40,
+                columnNumber: 33
+              }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("br", {}, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 40,
+                columnNumber: 56
+              }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("a", {
+                href: "#",
+                children: "Youtube"
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 41,
+                columnNumber: 33
+              }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("br", {}, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 41,
+                columnNumber: 56
+              }, undefined)]
+            }, void 0, true, {
+              fileName: _jsxFileName,
+              lineNumber: 36,
+              columnNumber: 29
+            }, undefined)
+          }, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 35,
+            columnNumber: 25
+          }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("div", {
+            className: "col-md-8 pl-5 about-info",
+            children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("div", {
+              className: "tab-content profile-tab",
+              id: "myTabContent",
+              children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("div", {
+                className: "tab-pane fade show active",
+                id: "home",
+                role: "tabpanel",
+                "area-aria-labelledby": "home-tab",
+                children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("div", {
+                  className: "row mt-3",
+                  children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("div", {
+                    className: "col-md-6",
+                    children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("label", {
+                      children: "User Id"
+                    }, void 0, false, {
+                      fileName: _jsxFileName,
+                      lineNumber: 50,
+                      columnNumber: 45
+                    }, undefined)
+                  }, void 0, false, {
+                    fileName: _jsxFileName,
+                    lineNumber: 49,
+                    columnNumber: 41
+                  }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("div", {
+                    className: "col-md-6",
+                    children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("p", {
+                      children: "67523452458"
+                    }, void 0, false, {
+                      fileName: _jsxFileName,
+                      lineNumber: 53,
+                      columnNumber: 45
+                    }, undefined)
+                  }, void 0, false, {
+                    fileName: _jsxFileName,
+                    lineNumber: 52,
+                    columnNumber: 41
+                  }, undefined)]
+                }, void 0, true, {
+                  fileName: _jsxFileName,
+                  lineNumber: 48,
+                  columnNumber: 37
+                }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("div", {
+                  className: "row mt-3",
+                  children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("div", {
+                    className: "col-md-6",
+                    children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("label", {
+                      children: "Name"
+                    }, void 0, false, {
+                      fileName: _jsxFileName,
+                      lineNumber: 58,
+                      columnNumber: 45
+                    }, undefined)
+                  }, void 0, false, {
+                    fileName: _jsxFileName,
+                    lineNumber: 57,
+                    columnNumber: 41
+                  }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("div", {
+                    className: "col-md-6",
+                    children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("p", {
+                      children: "Jay Kumar"
+                    }, void 0, false, {
+                      fileName: _jsxFileName,
+                      lineNumber: 61,
+                      columnNumber: 45
+                    }, undefined)
+                  }, void 0, false, {
+                    fileName: _jsxFileName,
+                    lineNumber: 60,
+                    columnNumber: 41
+                  }, undefined)]
+                }, void 0, true, {
+                  fileName: _jsxFileName,
+                  lineNumber: 56,
+                  columnNumber: 37
+                }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("div", {
+                  className: "row mt-3",
+                  children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("div", {
+                    className: "col-md-6",
+                    children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("label", {
+                      children: "User Id"
+                    }, void 0, false, {
+                      fileName: _jsxFileName,
+                      lineNumber: 66,
+                      columnNumber: 45
+                    }, undefined)
+                  }, void 0, false, {
+                    fileName: _jsxFileName,
+                    lineNumber: 65,
+                    columnNumber: 41
+                  }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("div", {
+                    className: "col-md-6",
+                    children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("p", {
+                      children: "Jay Kumar"
+                    }, void 0, false, {
+                      fileName: _jsxFileName,
+                      lineNumber: 69,
+                      columnNumber: 45
+                    }, undefined)
+                  }, void 0, false, {
+                    fileName: _jsxFileName,
+                    lineNumber: 68,
+                    columnNumber: 41
+                  }, undefined)]
+                }, void 0, true, {
+                  fileName: _jsxFileName,
+                  lineNumber: 64,
+                  columnNumber: 37
+                }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("div", {
+                  className: "row mt-3",
+                  children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("div", {
+                    className: "col-md-6",
+                    children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("label", {
+                      children: "User Id"
+                    }, void 0, false, {
+                      fileName: _jsxFileName,
+                      lineNumber: 74,
+                      columnNumber: 45
+                    }, undefined)
+                  }, void 0, false, {
+                    fileName: _jsxFileName,
+                    lineNumber: 73,
+                    columnNumber: 41
+                  }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("div", {
+                    className: "col-md-6",
+                    children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("p", {
+                      children: "Jay Kumar"
+                    }, void 0, false, {
+                      fileName: _jsxFileName,
+                      lineNumber: 77,
+                      columnNumber: 45
+                    }, undefined)
+                  }, void 0, false, {
+                    fileName: _jsxFileName,
+                    lineNumber: 76,
+                    columnNumber: 41
+                  }, undefined)]
+                }, void 0, true, {
+                  fileName: _jsxFileName,
+                  lineNumber: 72,
+                  columnNumber: 37
+                }, undefined)]
+              }, void 0, true, {
+                fileName: _jsxFileName,
+                lineNumber: 47,
+                columnNumber: 33
+              }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("div", {
+                className: "tab-pane fade",
+                id: "profile",
+                role: "tabpanel",
+                "area-aria-labelledby": "profile-tab",
+                children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("div", {
+                  className: "row mt-3",
+                  children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("div", {
+                    className: "col-md-6",
+                    children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("label", {
+                      children: "User Id"
+                    }, void 0, false, {
+                      fileName: _jsxFileName,
+                      lineNumber: 84,
+                      columnNumber: 45
+                    }, undefined)
+                  }, void 0, false, {
+                    fileName: _jsxFileName,
+                    lineNumber: 83,
+                    columnNumber: 41
+                  }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("div", {
+                    className: "col-md-6",
+                    children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("p", {
+                      children: "Jay Kumar"
+                    }, void 0, false, {
+                      fileName: _jsxFileName,
+                      lineNumber: 87,
+                      columnNumber: 45
+                    }, undefined)
+                  }, void 0, false, {
+                    fileName: _jsxFileName,
+                    lineNumber: 86,
+                    columnNumber: 41
+                  }, undefined)]
+                }, void 0, true, {
+                  fileName: _jsxFileName,
+                  lineNumber: 82,
+                  columnNumber: 33
+                }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("div", {
+                  className: "row mt-3",
+                  children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("div", {
+                    className: "col-md-6",
+                    children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("label", {
+                      children: "User Id"
+                    }, void 0, false, {
+                      fileName: _jsxFileName,
+                      lineNumber: 92,
+                      columnNumber: 45
+                    }, undefined)
+                  }, void 0, false, {
+                    fileName: _jsxFileName,
+                    lineNumber: 91,
+                    columnNumber: 41
+                  }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("div", {
+                    className: "col-md-6",
+                    children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("p", {
+                      children: "Jay Kumar"
+                    }, void 0, false, {
+                      fileName: _jsxFileName,
+                      lineNumber: 95,
+                      columnNumber: 45
+                    }, undefined)
+                  }, void 0, false, {
+                    fileName: _jsxFileName,
+                    lineNumber: 94,
+                    columnNumber: 41
+                  }, undefined)]
+                }, void 0, true, {
+                  fileName: _jsxFileName,
+                  lineNumber: 90,
+                  columnNumber: 37
+                }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("div", {
+                  className: "row mt-3",
+                  children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("div", {
+                    className: "col-md-6",
+                    children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("label", {
+                      children: "User Id"
+                    }, void 0, false, {
+                      fileName: _jsxFileName,
+                      lineNumber: 100,
+                      columnNumber: 45
+                    }, undefined)
+                  }, void 0, false, {
+                    fileName: _jsxFileName,
+                    lineNumber: 99,
+                    columnNumber: 41
+                  }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("div", {
+                    className: "col-md-6",
+                    children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("p", {
+                      children: "Jay Kumar"
+                    }, void 0, false, {
+                      fileName: _jsxFileName,
+                      lineNumber: 103,
+                      columnNumber: 45
+                    }, undefined)
+                  }, void 0, false, {
+                    fileName: _jsxFileName,
+                    lineNumber: 102,
+                    columnNumber: 41
+                  }, undefined)]
+                }, void 0, true, {
+                  fileName: _jsxFileName,
+                  lineNumber: 98,
+                  columnNumber: 37
+                }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("div", {
+                  className: "row mt-3",
+                  children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("div", {
+                    className: "col-md-6",
+                    children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("label", {
+                      children: "User Id"
+                    }, void 0, false, {
+                      fileName: _jsxFileName,
+                      lineNumber: 108,
+                      columnNumber: 45
+                    }, undefined)
+                  }, void 0, false, {
+                    fileName: _jsxFileName,
+                    lineNumber: 107,
+                    columnNumber: 41
+                  }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("div", {
+                    className: "col-md-6",
+                    children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("p", {
+                      children: "Jay Kumar"
+                    }, void 0, false, {
+                      fileName: _jsxFileName,
+                      lineNumber: 111,
+                      columnNumber: 45
+                    }, undefined)
+                  }, void 0, false, {
+                    fileName: _jsxFileName,
+                    lineNumber: 110,
+                    columnNumber: 41
+                  }, undefined)]
+                }, void 0, true, {
+                  fileName: _jsxFileName,
+                  lineNumber: 106,
+                  columnNumber: 37
+                }, undefined)]
+              }, void 0, true, {
+                fileName: _jsxFileName,
+                lineNumber: 81,
+                columnNumber: 33
+              }, undefined)]
+            }, void 0, true, {
+              fileName: _jsxFileName,
+              lineNumber: 46,
+              columnNumber: 29
+            }, undefined)
+          }, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 45,
+            columnNumber: 25
+          }, undefined)]
+        }, void 0, true, {
+          fileName: _jsxFileName,
+          lineNumber: 33,
+          columnNumber: 21
+        }, undefined)]
+      }, void 0, true, {
+        fileName: _jsxFileName,
+        lineNumber: 8,
+        columnNumber: 17
+      }, undefined)
+    }, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 7,
+      columnNumber: 13
+    }, undefined)
+  }, void 0, false);
+};
+
+_c = About;
+/* harmony default export */ __webpack_exports__["default"] = (About);
+
+var _c;
+
+__webpack_require__.$Refresh$.register(_c, "About");
+
+const currentExports = __react_refresh_utils__.getModuleExports(module.i);
+__react_refresh_utils__.registerExportsForReactRefresh(currentExports, module.i);
+
+if (true) {
+  const isHotUpdate = !!module.hot.data;
+  const prevExports = isHotUpdate ? module.hot.data.prevExports : null;
+
+  if (__react_refresh_utils__.isReactRefreshBoundary(currentExports)) {
+    module.hot.dispose(
+      /**
+       * A callback to performs a full refresh if React has unrecoverable errors,
+       * and also caches the to-be-disposed module.
+       * @param {*} data A hot module data object from Webpack HMR.
+       * @returns {void}
+       */
+      function hotDisposeCallback(data) {
+        // We have to mutate the data object to get data registered and cached
+        data.prevExports = currentExports;
+      }
+    );
+    module.hot.accept(
+      /**
+       * An error handler to allow self-recovering behaviours.
+       * @param {Error} error An error occurred during evaluation of a module.
+       * @returns {void}
+       */
+      function hotErrorHandler(error) {
+        if (
+          typeof __react_refresh_error_overlay__ !== 'undefined' &&
+          __react_refresh_error_overlay__
+        ) {
+          __react_refresh_error_overlay__.handleRuntimeError(error);
+        }
+
+        if (typeof __react_refresh_test__ !== 'undefined' && __react_refresh_test__) {
+          if (window.onHotAcceptError) {
+            window.onHotAcceptError(error.message);
+          }
+        }
+
+        __webpack_require__.c[module.i].hot.accept(hotErrorHandler);
+      }
+    );
+
+    if (isHotUpdate) {
+      if (
+        __react_refresh_utils__.isReactRefreshBoundary(prevExports) &&
+        __react_refresh_utils__.shouldInvalidateReactRefreshBoundary(prevExports, currentExports)
+      ) {
+        module.hot.invalidate();
+      } else {
+        __react_refresh_utils__.enqueueUpdate(
+          /**
+           * A function to dismiss the error overlay after performing React refresh.
+           * @returns {void}
+           */
+          function updateCallback() {
+            if (
+              typeof __react_refresh_error_overlay__ !== 'undefined' &&
+              __react_refresh_error_overlay__
+            ) {
+              __react_refresh_error_overlay__.clearRuntimeErrors();
+            }
+          }
+        );
+      }
+    }
+  } else {
+    if (isHotUpdate && __react_refresh_utils__.isReactRefreshBoundary(prevExports)) {
+      module.hot.invalidate();
+    }
+  }
+}
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js */ "./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js"), __webpack_require__(/*! ./node_modules/react-dev-utils/refreshOverlayInterop.js */ "./node_modules/react-dev-utils/refreshOverlayInterop.js")))
+
+/***/ }),
+
+/***/ "./src/components/Contact.js":
+/*!***********************************!*\
+  !*** ./src/components/Contact.js ***!
+  \***********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* WEBPACK VAR INJECTION */(function(__react_refresh_utils__, __react_refresh_error_overlay__) {/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _material_ui_icons_MailOutline__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @material-ui/icons/MailOutline */ "./node_modules/@material-ui/icons/MailOutline.js");
+/* harmony import */ var _material_ui_icons_MailOutline__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_material_ui_icons_MailOutline__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _material_ui_icons_PhoneAndroid__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @material-ui/icons/PhoneAndroid */ "./node_modules/@material-ui/icons/PhoneAndroid.js");
+/* harmony import */ var _material_ui_icons_PhoneAndroid__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_material_ui_icons_PhoneAndroid__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__);
+__webpack_require__.$Refresh$.runtime = __webpack_require__(/*! ./node_modules/react-refresh/runtime.js */ "./node_modules/react-refresh/runtime.js");
+__webpack_require__.$Refresh$.setup(module.i);
+
+var _jsxFileName = "D:\\reactjs2\\MERN\\client\\src\\components\\Contact.js";
+
+
+
+
+
+
+const Contact = () => {
+  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["Fragment"], {
+    children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("div", {
+      className: "contact-info",
+      children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("div", {
+        className: "container-fluid",
+        children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("div", {
+          className: "row",
+          children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("div", {
+            className: "co-lg-10 offset-lg-1 d-flex justify-content-between",
+            children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("div", {
+              className: "contact_info_item d-flex justify-content-start align-items-center",
+              children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])(_material_ui_icons_PhoneAndroid__WEBPACK_IMPORTED_MODULE_2___default.a, {}, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 13,
+                columnNumber: 29
+              }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("div", {
+                className: "contact_info_content mx-4",
+                children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("div", {
+                  className: "content_info_title",
+                  children: "Phone"
+                }, void 0, false, {
+                  fileName: _jsxFileName,
+                  lineNumber: 15,
+                  columnNumber: 33
+                }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("div", {
+                  className: "content_info_text",
+                  children: "+9123456789908"
+                }, void 0, false, {
+                  fileName: _jsxFileName,
+                  lineNumber: 18,
+                  columnNumber: 33
+                }, undefined)]
+              }, void 0, true, {
+                fileName: _jsxFileName,
+                lineNumber: 14,
+                columnNumber: 29
+              }, undefined)]
+            }, void 0, true, {
+              fileName: _jsxFileName,
+              lineNumber: 12,
+              columnNumber: 25
+            }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("div", {
+              className: "contact_info_item d-flex justify-content-start align-items-center",
+              children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])(_material_ui_icons_MailOutline__WEBPACK_IMPORTED_MODULE_1___default.a, {}, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 24,
+                columnNumber: 29
+              }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("div", {
+                className: "contact_info_content mx-4",
+                children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("div", {
+                  className: "content_info_title",
+                  children: "Email"
+                }, void 0, false, {
+                  fileName: _jsxFileName,
+                  lineNumber: 26,
+                  columnNumber: 33
+                }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("div", {
+                  className: "content_info_text",
+                  children: "xyz@gmail.com"
+                }, void 0, false, {
+                  fileName: _jsxFileName,
+                  lineNumber: 29,
+                  columnNumber: 33
+                }, undefined)]
+              }, void 0, true, {
+                fileName: _jsxFileName,
+                lineNumber: 25,
+                columnNumber: 29
+              }, undefined)]
+            }, void 0, true, {
+              fileName: _jsxFileName,
+              lineNumber: 23,
+              columnNumber: 25
+            }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("div", {
+              className: "contact_info_item d-flex justify-content-start align-items-center",
+              children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("img", {
+                src: "",
+                alt: "address"
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 35,
+                columnNumber: 29
+              }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("div", {
+                className: "contact_info_content mx-4",
+                children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("div", {
+                  className: "content_info_title",
+                  children: "Address"
+                }, void 0, false, {
+                  fileName: _jsxFileName,
+                  lineNumber: 37,
+                  columnNumber: 33
+                }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("div", {
+                  className: "content_info_text",
+                  children: "Bokaro,Jharkhand"
+                }, void 0, false, {
+                  fileName: _jsxFileName,
+                  lineNumber: 40,
+                  columnNumber: 33
+                }, undefined)]
+              }, void 0, true, {
+                fileName: _jsxFileName,
+                lineNumber: 36,
+                columnNumber: 29
+              }, undefined)]
+            }, void 0, true, {
+              fileName: _jsxFileName,
+              lineNumber: 34,
+              columnNumber: 25
+            }, undefined)]
+          }, void 0, true, {
+            fileName: _jsxFileName,
+            lineNumber: 11,
+            columnNumber: 21
+          }, undefined)
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 10,
+          columnNumber: 17
+        }, undefined)
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 9,
+        columnNumber: 16
+      }, undefined)
+    }, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 8,
+      columnNumber: 12
+    }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("div", {
+      className: "content_form",
+      children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("div", {
+        className: "container",
+        children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("div", {
+          className: "row",
+          children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("div", {
+            className: "col-lg-10 offset-lg-1",
+            children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("div", {
+              className: "content_form_container py-5",
+              children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("div", {
+                className: "contact_form_title",
+                children: "Get In Touch"
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 54,
+                columnNumber: 29
+              }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("form", {
+                id: "contact_form",
+                children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("div", {
+                  className: "contact_form_name d-flex justify-content-between align-items-center",
+                  children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("input", {
+                    type: "text",
+                    id: "contact_form_name",
+                    className: "contact_form_name input_field",
+                    placeholder: "Your Name",
+                    required: "true"
+                  }, void 0, false, {
+                    fileName: _jsxFileName,
+                    lineNumber: 59,
+                    columnNumber: 37
+                  }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("input", {
+                    type: "text",
+                    id: "contact_form_name",
+                    className: "contact_form_name input_field",
+                    placeholder: "Your Name",
+                    required: "true"
+                  }, void 0, false, {
+                    fileName: _jsxFileName,
+                    lineNumber: 61,
+                    columnNumber: 37
+                  }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("input", {
+                    type: "text",
+                    id: "contact_form_name",
+                    className: "contact_form_name input_field",
+                    placeholder: "Your Name",
+                    required: "true"
+                  }, void 0, false, {
+                    fileName: _jsxFileName,
+                    lineNumber: 63,
+                    columnNumber: 37
+                  }, undefined)]
+                }, void 0, true, {
+                  fileName: _jsxFileName,
+                  lineNumber: 58,
+                  columnNumber: 33
+                }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("div", {
+                  className: "contact_form_text mt-3",
+                  children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("textarea", {
+                    className: "text_field contect_form_message",
+                    id: "",
+                    cols: "50",
+                    placeholder: "Message",
+                    rows: "10"
+                  }, void 0, false, {
+                    fileName: _jsxFileName,
+                    lineNumber: 67,
+                    columnNumber: 37
+                  }, undefined)
+                }, void 0, false, {
+                  fileName: _jsxFileName,
+                  lineNumber: 66,
+                  columnNumber: 33
+                }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("div", {
+                  className: "contact_form_button",
+                  children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("button", {
+                    type: "submit",
+                    className: "button contant_submit_button",
+                    children: "Send Message"
+                  }, void 0, false, {
+                    fileName: _jsxFileName,
+                    lineNumber: 72,
+                    columnNumber: 37
+                  }, undefined)
+                }, void 0, false, {
+                  fileName: _jsxFileName,
+                  lineNumber: 71,
+                  columnNumber: 33
+                }, undefined)]
+              }, void 0, true, {
+                fileName: _jsxFileName,
+                lineNumber: 57,
+                columnNumber: 29
+              }, undefined)]
+            }, void 0, true, {
+              fileName: _jsxFileName,
+              lineNumber: 53,
+              columnNumber: 25
+            }, undefined)
+          }, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 52,
+            columnNumber: 21
+          }, undefined)
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 51,
+          columnNumber: 17
+        }, undefined)
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 50,
+        columnNumber: 13
+      }, undefined)
+    }, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 49,
+      columnNumber: 11
+    }, undefined)]
+  }, void 0, true);
+};
+
+_c = Contact;
+/* harmony default export */ __webpack_exports__["default"] = (Contact);
+
+var _c;
+
+__webpack_require__.$Refresh$.register(_c, "Contact");
+
+const currentExports = __react_refresh_utils__.getModuleExports(module.i);
+__react_refresh_utils__.registerExportsForReactRefresh(currentExports, module.i);
+
+if (true) {
+  const isHotUpdate = !!module.hot.data;
+  const prevExports = isHotUpdate ? module.hot.data.prevExports : null;
+
+  if (__react_refresh_utils__.isReactRefreshBoundary(currentExports)) {
+    module.hot.dispose(
+      /**
+       * A callback to performs a full refresh if React has unrecoverable errors,
+       * and also caches the to-be-disposed module.
+       * @param {*} data A hot module data object from Webpack HMR.
+       * @returns {void}
+       */
+      function hotDisposeCallback(data) {
+        // We have to mutate the data object to get data registered and cached
+        data.prevExports = currentExports;
+      }
+    );
+    module.hot.accept(
+      /**
+       * An error handler to allow self-recovering behaviours.
+       * @param {Error} error An error occurred during evaluation of a module.
+       * @returns {void}
+       */
+      function hotErrorHandler(error) {
+        if (
+          typeof __react_refresh_error_overlay__ !== 'undefined' &&
+          __react_refresh_error_overlay__
+        ) {
+          __react_refresh_error_overlay__.handleRuntimeError(error);
+        }
+
+        if (typeof __react_refresh_test__ !== 'undefined' && __react_refresh_test__) {
+          if (window.onHotAcceptError) {
+            window.onHotAcceptError(error.message);
+          }
+        }
+
+        __webpack_require__.c[module.i].hot.accept(hotErrorHandler);
+      }
+    );
+
+    if (isHotUpdate) {
+      if (
+        __react_refresh_utils__.isReactRefreshBoundary(prevExports) &&
+        __react_refresh_utils__.shouldInvalidateReactRefreshBoundary(prevExports, currentExports)
+      ) {
+        module.hot.invalidate();
+      } else {
+        __react_refresh_utils__.enqueueUpdate(
+          /**
+           * A function to dismiss the error overlay after performing React refresh.
+           * @returns {void}
+           */
+          function updateCallback() {
+            if (
+              typeof __react_refresh_error_overlay__ !== 'undefined' &&
+              __react_refresh_error_overlay__
+            ) {
+              __react_refresh_error_overlay__.clearRuntimeErrors();
+            }
+          }
+        );
+      }
+    }
+  } else {
+    if (isHotUpdate && __react_refresh_utils__.isReactRefreshBoundary(prevExports)) {
+      module.hot.invalidate();
+    }
+  }
+}
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js */ "./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js"), __webpack_require__(/*! ./node_modules/react-dev-utils/refreshOverlayInterop.js */ "./node_modules/react-dev-utils/refreshOverlayInterop.js")))
+
+/***/ }),
+
+/***/ "./src/components/Errorpage.jsx":
+/*!**************************************!*\
+  !*** ./src/components/Errorpage.jsx ***!
+  \**************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* WEBPACK VAR INJECTION */(function(__react_refresh_utils__, __react_refresh_error_overlay__) {/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__);
+__webpack_require__.$Refresh$.runtime = __webpack_require__(/*! ./node_modules/react-refresh/runtime.js */ "./node_modules/react-refresh/runtime.js");
+__webpack_require__.$Refresh$.setup(module.i);
+
+var _jsxFileName = "D:\\reactjs2\\MERN\\client\\src\\components\\Errorpage.jsx";
+
+
+
+
+
+const Errorpage = () => {
+  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["Fragment"], {
+    children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("div", {
+      id: "notfound",
+      children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("div", {
+        className: "notfound",
+        children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("div", {
+          className: "notfound-404",
+          children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("h1", {
+            children: "404"
+          }, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 10,
+            columnNumber: 21
+          }, undefined)
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 9,
+          columnNumber: 17
+        }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("h2", {
+          children: "we are soory,page not found!"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 12,
+          columnNumber: 17
+        }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["NavLink"], {
+          to: "/",
+          children: "Back to HomePage"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 13,
+          columnNumber: 17
+        }, undefined)]
+      }, void 0, true, {
+        fileName: _jsxFileName,
+        lineNumber: 8,
+        columnNumber: 15
+      }, undefined)
+    }, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 7,
+      columnNumber: 11
+    }, undefined)
+  }, void 0, false);
+};
+
+_c = Errorpage;
+/* harmony default export */ __webpack_exports__["default"] = (Errorpage);
+
+var _c;
+
+__webpack_require__.$Refresh$.register(_c, "Errorpage");
+
+const currentExports = __react_refresh_utils__.getModuleExports(module.i);
+__react_refresh_utils__.registerExportsForReactRefresh(currentExports, module.i);
+
+if (true) {
+  const isHotUpdate = !!module.hot.data;
+  const prevExports = isHotUpdate ? module.hot.data.prevExports : null;
+
+  if (__react_refresh_utils__.isReactRefreshBoundary(currentExports)) {
+    module.hot.dispose(
+      /**
+       * A callback to performs a full refresh if React has unrecoverable errors,
+       * and also caches the to-be-disposed module.
+       * @param {*} data A hot module data object from Webpack HMR.
+       * @returns {void}
+       */
+      function hotDisposeCallback(data) {
+        // We have to mutate the data object to get data registered and cached
+        data.prevExports = currentExports;
+      }
+    );
+    module.hot.accept(
+      /**
+       * An error handler to allow self-recovering behaviours.
+       * @param {Error} error An error occurred during evaluation of a module.
+       * @returns {void}
+       */
+      function hotErrorHandler(error) {
+        if (
+          typeof __react_refresh_error_overlay__ !== 'undefined' &&
+          __react_refresh_error_overlay__
+        ) {
+          __react_refresh_error_overlay__.handleRuntimeError(error);
+        }
+
+        if (typeof __react_refresh_test__ !== 'undefined' && __react_refresh_test__) {
+          if (window.onHotAcceptError) {
+            window.onHotAcceptError(error.message);
+          }
+        }
+
+        __webpack_require__.c[module.i].hot.accept(hotErrorHandler);
+      }
+    );
+
+    if (isHotUpdate) {
+      if (
+        __react_refresh_utils__.isReactRefreshBoundary(prevExports) &&
+        __react_refresh_utils__.shouldInvalidateReactRefreshBoundary(prevExports, currentExports)
+      ) {
+        module.hot.invalidate();
+      } else {
+        __react_refresh_utils__.enqueueUpdate(
+          /**
+           * A function to dismiss the error overlay after performing React refresh.
+           * @returns {void}
+           */
+          function updateCallback() {
+            if (
+              typeof __react_refresh_error_overlay__ !== 'undefined' &&
+              __react_refresh_error_overlay__
+            ) {
+              __react_refresh_error_overlay__.clearRuntimeErrors();
+            }
+          }
+        );
+      }
+    }
+  } else {
+    if (isHotUpdate && __react_refresh_utils__.isReactRefreshBoundary(prevExports)) {
+      module.hot.invalidate();
+    }
+  }
+}
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js */ "./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js"), __webpack_require__(/*! ./node_modules/react-dev-utils/refreshOverlayInterop.js */ "./node_modules/react-dev-utils/refreshOverlayInterop.js")))
+
+/***/ }),
+
+/***/ "./src/components/Home.js":
+/*!********************************!*\
+  !*** ./src/components/Home.js ***!
+  \********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* WEBPACK VAR INJECTION */(function(__react_refresh_utils__, __react_refresh_error_overlay__) {/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__);
+__webpack_require__.$Refresh$.runtime = __webpack_require__(/*! ./node_modules/react-refresh/runtime.js */ "./node_modules/react-refresh/runtime.js");
+__webpack_require__.$Refresh$.setup(module.i);
+
+var _jsxFileName = "D:\\reactjs2\\MERN\\client\\src\\components\\Home.js";
+
+
+
+
+const Home = () => {
+  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["jsxDEV"])(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["Fragment"], {
+    children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["jsxDEV"])("div", {
+      className: "home-page",
+      children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["jsxDEV"])("div", {
+        className: "home-div",
+        children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["jsxDEV"])("p", {
+          className: "pt-5",
+          children: "WELCOME"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 8,
+          columnNumber: 21
+        }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["jsxDEV"])("h1", {
+          children: "To Our Website "
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 9,
+          columnNumber: 21
+        }, undefined)]
+      }, void 0, true, {
+        fileName: _jsxFileName,
+        lineNumber: 7,
+        columnNumber: 17
+      }, undefined)
+    }, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 6,
+      columnNumber: 13
+    }, undefined)
+  }, void 0, false);
+};
+
+_c = Home;
+/* harmony default export */ __webpack_exports__["default"] = (Home);
+
+var _c;
+
+__webpack_require__.$Refresh$.register(_c, "Home");
+
+const currentExports = __react_refresh_utils__.getModuleExports(module.i);
+__react_refresh_utils__.registerExportsForReactRefresh(currentExports, module.i);
+
+if (true) {
+  const isHotUpdate = !!module.hot.data;
+  const prevExports = isHotUpdate ? module.hot.data.prevExports : null;
+
+  if (__react_refresh_utils__.isReactRefreshBoundary(currentExports)) {
+    module.hot.dispose(
+      /**
+       * A callback to performs a full refresh if React has unrecoverable errors,
+       * and also caches the to-be-disposed module.
+       * @param {*} data A hot module data object from Webpack HMR.
+       * @returns {void}
+       */
+      function hotDisposeCallback(data) {
+        // We have to mutate the data object to get data registered and cached
+        data.prevExports = currentExports;
+      }
+    );
+    module.hot.accept(
+      /**
+       * An error handler to allow self-recovering behaviours.
+       * @param {Error} error An error occurred during evaluation of a module.
+       * @returns {void}
+       */
+      function hotErrorHandler(error) {
+        if (
+          typeof __react_refresh_error_overlay__ !== 'undefined' &&
+          __react_refresh_error_overlay__
+        ) {
+          __react_refresh_error_overlay__.handleRuntimeError(error);
+        }
+
+        if (typeof __react_refresh_test__ !== 'undefined' && __react_refresh_test__) {
+          if (window.onHotAcceptError) {
+            window.onHotAcceptError(error.message);
+          }
+        }
+
+        __webpack_require__.c[module.i].hot.accept(hotErrorHandler);
+      }
+    );
+
+    if (isHotUpdate) {
+      if (
+        __react_refresh_utils__.isReactRefreshBoundary(prevExports) &&
+        __react_refresh_utils__.shouldInvalidateReactRefreshBoundary(prevExports, currentExports)
+      ) {
+        module.hot.invalidate();
+      } else {
+        __react_refresh_utils__.enqueueUpdate(
+          /**
+           * A function to dismiss the error overlay after performing React refresh.
+           * @returns {void}
+           */
+          function updateCallback() {
+            if (
+              typeof __react_refresh_error_overlay__ !== 'undefined' &&
+              __react_refresh_error_overlay__
+            ) {
+              __react_refresh_error_overlay__.clearRuntimeErrors();
+            }
+          }
+        );
+      }
+    }
+  } else {
+    if (isHotUpdate && __react_refresh_utils__.isReactRefreshBoundary(prevExports)) {
+      module.hot.invalidate();
+    }
+  }
+}
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js */ "./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js"), __webpack_require__(/*! ./node_modules/react-dev-utils/refreshOverlayInterop.js */ "./node_modules/react-dev-utils/refreshOverlayInterop.js")))
+
+/***/ }),
+
+/***/ "./src/components/Login.js":
+/*!*********************************!*\
+  !*** ./src/components/Login.js ***!
+  \*********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* WEBPACK VAR INJECTION */(function(__react_refresh_utils__, __react_refresh_error_overlay__) {/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var _img_login_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../img/login.jpg */ "./src/img/login.jpg");
+/* harmony import */ var _material_ui_icons_AccountBox__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @material-ui/icons/AccountBox */ "./node_modules/@material-ui/icons/AccountBox.js");
+/* harmony import */ var _material_ui_icons_AccountBox__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_material_ui_icons_AccountBox__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _material_ui_icons_Lock__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @material-ui/icons/Lock */ "./node_modules/@material-ui/icons/Lock.js");
+/* harmony import */ var _material_ui_icons_Lock__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_material_ui_icons_Lock__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__);
+__webpack_require__.$Refresh$.runtime = __webpack_require__(/*! ./node_modules/react-refresh/runtime.js */ "./node_modules/react-refresh/runtime.js");
+__webpack_require__.$Refresh$.setup(module.i);
+
+var _jsxFileName = "D:\\reactjs2\\MERN\\client\\src\\components\\Login.js";
+
+
+
+
+
+
+
+
+const Login = () => {
+  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["Fragment"], {
+    children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])("section", {
+      className: "signup",
+      children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])("div", {
+        className: "container mt-5",
+        children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])("div", {
+          className: "row signup-content",
+          children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])("div", {
+            className: "signup-image col-6",
+            children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])("figure", {
+              children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])("img", {
+                src: _img_login_jpg__WEBPACK_IMPORTED_MODULE_2__["default"],
+                alt: "signup"
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 15,
+                columnNumber: 29
+              }, undefined)
+            }, void 0, false, {
+              fileName: _jsxFileName,
+              lineNumber: 14,
+              columnNumber: 25
+            }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["NavLink"], {
+              to: "/signup",
+              className: "signup-image-link",
+              children: "Create a new Account."
+            }, void 0, false, {
+              fileName: _jsxFileName,
+              lineNumber: 17,
+              columnNumber: 25
+            }, undefined)]
+          }, void 0, true, {
+            fileName: _jsxFileName,
+            lineNumber: 13,
+            columnNumber: 17
+          }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])("div", {
+            className: "signup-form col-6",
+            children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])("h2", {
+              className: "form-title",
+              children: "Sign In"
+            }, void 0, false, {
+              fileName: _jsxFileName,
+              lineNumber: 20,
+              columnNumber: 25
+            }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])("form", {
+              className: "register-form",
+              id: "register-form",
+              children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])("div", {
+                className: "form-group",
+                children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])("lable", {
+                  htmlFor: "name",
+                  children: [" ", /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])(_material_ui_icons_AccountBox__WEBPACK_IMPORTED_MODULE_3___default.a, {}, void 0, false, {
+                    fileName: _jsxFileName,
+                    lineNumber: 23,
+                    columnNumber: 56
+                  }, undefined), " "]
+                }, void 0, true, {
+                  fileName: _jsxFileName,
+                  lineNumber: 23,
+                  columnNumber: 33
+                }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])("input", {
+                  type: "text",
+                  name: "name",
+                  id: "name",
+                  autoComplete: "off",
+                  placeholder: "Your Name"
+                }, void 0, false, {
+                  fileName: _jsxFileName,
+                  lineNumber: 24,
+                  columnNumber: 33
+                }, undefined)]
+              }, void 0, true, {
+                fileName: _jsxFileName,
+                lineNumber: 22,
+                columnNumber: 29
+              }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])("div", {
+                className: "form-group",
+                children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])("lable", {
+                  htmlFor: "password",
+                  children: [" ", /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])(_material_ui_icons_Lock__WEBPACK_IMPORTED_MODULE_4___default.a, {}, void 0, false, {
+                    fileName: _jsxFileName,
+                    lineNumber: 28,
+                    columnNumber: 60
+                  }, undefined), " "]
+                }, void 0, true, {
+                  fileName: _jsxFileName,
+                  lineNumber: 28,
+                  columnNumber: 33
+                }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])("input", {
+                  type: "password",
+                  name: "password",
+                  id: "password",
+                  autoComplete: "off",
+                  placeholder: "Your Password"
+                }, void 0, false, {
+                  fileName: _jsxFileName,
+                  lineNumber: 29,
+                  columnNumber: 33
+                }, undefined)]
+              }, void 0, true, {
+                fileName: _jsxFileName,
+                lineNumber: 27,
+                columnNumber: 29
+              }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])("div", {
+                className: "form-group form-button",
+                children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])("input", {
+                  type: "submit",
+                  name: "login",
+                  value: "Login"
+                }, void 0, false, {
+                  fileName: _jsxFileName,
+                  lineNumber: 33,
+                  columnNumber: 33
+                }, undefined)
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 32,
+                columnNumber: 29
+              }, undefined)]
+            }, void 0, true, {
+              fileName: _jsxFileName,
+              lineNumber: 21,
+              columnNumber: 25
+            }, undefined)]
+          }, void 0, true, {
+            fileName: _jsxFileName,
+            lineNumber: 19,
+            columnNumber: 21
+          }, undefined)]
+        }, void 0, true, {
+          fileName: _jsxFileName,
+          lineNumber: 12,
+          columnNumber: 17
+        }, undefined)
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 11,
+        columnNumber: 13
+      }, undefined)
+    }, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 10,
+      columnNumber: 14
+    }, undefined)
+  }, void 0, false);
+};
+
+_c = Login;
+/* harmony default export */ __webpack_exports__["default"] = (Login);
+
+var _c;
+
+__webpack_require__.$Refresh$.register(_c, "Login");
+
+const currentExports = __react_refresh_utils__.getModuleExports(module.i);
+__react_refresh_utils__.registerExportsForReactRefresh(currentExports, module.i);
+
+if (true) {
+  const isHotUpdate = !!module.hot.data;
+  const prevExports = isHotUpdate ? module.hot.data.prevExports : null;
+
+  if (__react_refresh_utils__.isReactRefreshBoundary(currentExports)) {
+    module.hot.dispose(
+      /**
+       * A callback to performs a full refresh if React has unrecoverable errors,
+       * and also caches the to-be-disposed module.
+       * @param {*} data A hot module data object from Webpack HMR.
+       * @returns {void}
+       */
+      function hotDisposeCallback(data) {
+        // We have to mutate the data object to get data registered and cached
+        data.prevExports = currentExports;
+      }
+    );
+    module.hot.accept(
+      /**
+       * An error handler to allow self-recovering behaviours.
+       * @param {Error} error An error occurred during evaluation of a module.
+       * @returns {void}
+       */
+      function hotErrorHandler(error) {
+        if (
+          typeof __react_refresh_error_overlay__ !== 'undefined' &&
+          __react_refresh_error_overlay__
+        ) {
+          __react_refresh_error_overlay__.handleRuntimeError(error);
+        }
+
+        if (typeof __react_refresh_test__ !== 'undefined' && __react_refresh_test__) {
+          if (window.onHotAcceptError) {
+            window.onHotAcceptError(error.message);
+          }
+        }
+
+        __webpack_require__.c[module.i].hot.accept(hotErrorHandler);
+      }
+    );
+
+    if (isHotUpdate) {
+      if (
+        __react_refresh_utils__.isReactRefreshBoundary(prevExports) &&
+        __react_refresh_utils__.shouldInvalidateReactRefreshBoundary(prevExports, currentExports)
+      ) {
+        module.hot.invalidate();
+      } else {
+        __react_refresh_utils__.enqueueUpdate(
+          /**
+           * A function to dismiss the error overlay after performing React refresh.
+           * @returns {void}
+           */
+          function updateCallback() {
+            if (
+              typeof __react_refresh_error_overlay__ !== 'undefined' &&
+              __react_refresh_error_overlay__
+            ) {
+              __react_refresh_error_overlay__.clearRuntimeErrors();
+            }
+          }
+        );
+      }
+    }
+  } else {
+    if (isHotUpdate && __react_refresh_utils__.isReactRefreshBoundary(prevExports)) {
+      module.hot.invalidate();
+    }
+  }
+}
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js */ "./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js"), __webpack_require__(/*! ./node_modules/react-dev-utils/refreshOverlayInterop.js */ "./node_modules/react-dev-utils/refreshOverlayInterop.js")))
+
+/***/ }),
+
+/***/ "./src/components/Navbar.js":
+/*!**********************************!*\
+  !*** ./src/components/Navbar.js ***!
+  \**********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* WEBPACK VAR INJECTION */(function(__react_refresh_utils__, __react_refresh_error_overlay__) {/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var bootstrap_dist_css_bootstrap_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap/dist/css/bootstrap.css */ "./node_modules/bootstrap/dist/css/bootstrap.css");
+/* harmony import */ var bootstrap_dist_css_bootstrap_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(bootstrap_dist_css_bootstrap_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var bootstrap_dist_js_bootstrap_bundle__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! bootstrap/dist/js/bootstrap.bundle */ "./node_modules/bootstrap/dist/js/bootstrap.bundle.js");
+/* harmony import */ var bootstrap_dist_js_bootstrap_bundle__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(bootstrap_dist_js_bootstrap_bundle__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var _img_vip_jpg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../img/vip.jpg */ "./src/img/vip.jpg");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__);
+__webpack_require__.$Refresh$.runtime = __webpack_require__(/*! ./node_modules/react-refresh/runtime.js */ "./node_modules/react-refresh/runtime.js");
+__webpack_require__.$Refresh$.setup(module.i);
+
+var _jsxFileName = "D:\\reactjs2\\MERN\\client\\src\\components\\Navbar.js";
+
+
+
+
+
+
+
+
+const Navbar = () => {
+  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["Fragment"], {
+    children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])("div", {
+      className: "container-fluid nav_bg",
+      children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])("div", {
+        className: "row",
+        children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])("div", {
+          className: "col-10 mx-auto",
+          children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])("nav", {
+            className: "navbar navbar-expand-lg",
+            children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])("div", {
+              className: "container-fluid",
+              children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])(react_router_dom__WEBPACK_IMPORTED_MODULE_3__["NavLink"], {
+                to: "/",
+                children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])("img", {
+                  src: _img_vip_jpg__WEBPACK_IMPORTED_MODULE_4__["default"],
+                  alt: "logo",
+                  height: "60px",
+                  width: "70px"
+                }, void 0, false, {
+                  fileName: _jsxFileName,
+                  lineNumber: 15,
+                  columnNumber: 37
+                }, undefined)
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 15,
+                columnNumber: 21
+              }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])("button", {
+                className: "navbar-toggler",
+                type: "button",
+                "data-bs-toggle": "collapse",
+                "data-bs-target": "#navbarSupportedContent",
+                "aria-controls": "navbarSupportedContent",
+                "aria-expanded": "false",
+                "aria-label": "Toggle navigation",
+                children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])("span", {
+                  className: "navbar-toggler-icon",
+                  children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])("i", {
+                    className: "fas fa-bars"
+                  }, void 0, false, {
+                    fileName: _jsxFileName,
+                    lineNumber: 18,
+                    columnNumber: 61
+                  }, undefined)
+                }, void 0, false, {
+                  fileName: _jsxFileName,
+                  lineNumber: 18,
+                  columnNumber: 23
+                }, undefined)
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 16,
+                columnNumber: 21
+              }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])("div", {
+                className: "collapse navbar-collapse navi",
+                id: "navbarSupportedContent",
+                children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])("ul", {
+                  className: "navbar-nav text-right",
+                  children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])("li", {
+                    className: "nav-item",
+                    children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])(react_router_dom__WEBPACK_IMPORTED_MODULE_3__["NavLink"], {
+                      className: "nav-link",
+                      "aria-current": "page",
+                      to: "/",
+                      children: "Home"
+                    }, void 0, false, {
+                      fileName: _jsxFileName,
+                      lineNumber: 23,
+                      columnNumber: 23
+                    }, undefined)
+                  }, void 0, false, {
+                    fileName: _jsxFileName,
+                    lineNumber: 22,
+                    columnNumber: 23
+                  }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])("li", {
+                    className: "nav-item",
+                    children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])(react_router_dom__WEBPACK_IMPORTED_MODULE_3__["NavLink"], {
+                      className: "nav-link",
+                      to: "/about",
+                      children: "About"
+                    }, void 0, false, {
+                      fileName: _jsxFileName,
+                      lineNumber: 26,
+                      columnNumber: 25
+                    }, undefined)
+                  }, void 0, false, {
+                    fileName: _jsxFileName,
+                    lineNumber: 25,
+                    columnNumber: 23
+                  }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])("li", {
+                    className: "nav-item",
+                    children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])(react_router_dom__WEBPACK_IMPORTED_MODULE_3__["NavLink"], {
+                      className: "nav-link",
+                      to: "/contact",
+                      children: "Contact"
+                    }, void 0, false, {
+                      fileName: _jsxFileName,
+                      lineNumber: 29,
+                      columnNumber: 25
+                    }, undefined)
+                  }, void 0, false, {
+                    fileName: _jsxFileName,
+                    lineNumber: 28,
+                    columnNumber: 23
+                  }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])("li", {
+                    className: "nav-item",
+                    children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])(react_router_dom__WEBPACK_IMPORTED_MODULE_3__["NavLink"], {
+                      className: "nav-link",
+                      to: "/login",
+                      children: "Login"
+                    }, void 0, false, {
+                      fileName: _jsxFileName,
+                      lineNumber: 32,
+                      columnNumber: 25
+                    }, undefined)
+                  }, void 0, false, {
+                    fileName: _jsxFileName,
+                    lineNumber: 31,
+                    columnNumber: 23
+                  }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])("li", {
+                    className: "nav-item",
+                    children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])(react_router_dom__WEBPACK_IMPORTED_MODULE_3__["NavLink"], {
+                      className: "nav-link",
+                      to: "/signup",
+                      children: "SignUp"
+                    }, void 0, false, {
+                      fileName: _jsxFileName,
+                      lineNumber: 35,
+                      columnNumber: 25
+                    }, undefined)
+                  }, void 0, false, {
+                    fileName: _jsxFileName,
+                    lineNumber: 34,
+                    columnNumber: 23
+                  }, undefined)]
+                }, void 0, true, {
+                  fileName: _jsxFileName,
+                  lineNumber: 21,
+                  columnNumber: 23
+                }, undefined)
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 20,
+                columnNumber: 21
+              }, undefined)]
+            }, void 0, true, {
+              fileName: _jsxFileName,
+              lineNumber: 14,
+              columnNumber: 20
+            }, undefined)
+          }, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 13,
+            columnNumber: 19
+          }, undefined)
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 12,
+          columnNumber: 17
+        }, undefined)
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 11,
+        columnNumber: 13
+      }, undefined)
+    }, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 10,
+      columnNumber: 11
+    }, undefined)
+  }, void 0, false);
+};
+
+_c = Navbar;
+/* harmony default export */ __webpack_exports__["default"] = (Navbar);
+
+var _c;
+
+__webpack_require__.$Refresh$.register(_c, "Navbar");
+
+const currentExports = __react_refresh_utils__.getModuleExports(module.i);
+__react_refresh_utils__.registerExportsForReactRefresh(currentExports, module.i);
+
+if (true) {
+  const isHotUpdate = !!module.hot.data;
+  const prevExports = isHotUpdate ? module.hot.data.prevExports : null;
+
+  if (__react_refresh_utils__.isReactRefreshBoundary(currentExports)) {
+    module.hot.dispose(
+      /**
+       * A callback to performs a full refresh if React has unrecoverable errors,
+       * and also caches the to-be-disposed module.
+       * @param {*} data A hot module data object from Webpack HMR.
+       * @returns {void}
+       */
+      function hotDisposeCallback(data) {
+        // We have to mutate the data object to get data registered and cached
+        data.prevExports = currentExports;
+      }
+    );
+    module.hot.accept(
+      /**
+       * An error handler to allow self-recovering behaviours.
+       * @param {Error} error An error occurred during evaluation of a module.
+       * @returns {void}
+       */
+      function hotErrorHandler(error) {
+        if (
+          typeof __react_refresh_error_overlay__ !== 'undefined' &&
+          __react_refresh_error_overlay__
+        ) {
+          __react_refresh_error_overlay__.handleRuntimeError(error);
+        }
+
+        if (typeof __react_refresh_test__ !== 'undefined' && __react_refresh_test__) {
+          if (window.onHotAcceptError) {
+            window.onHotAcceptError(error.message);
+          }
+        }
+
+        __webpack_require__.c[module.i].hot.accept(hotErrorHandler);
+      }
+    );
+
+    if (isHotUpdate) {
+      if (
+        __react_refresh_utils__.isReactRefreshBoundary(prevExports) &&
+        __react_refresh_utils__.shouldInvalidateReactRefreshBoundary(prevExports, currentExports)
+      ) {
+        module.hot.invalidate();
+      } else {
+        __react_refresh_utils__.enqueueUpdate(
+          /**
+           * A function to dismiss the error overlay after performing React refresh.
+           * @returns {void}
+           */
+          function updateCallback() {
+            if (
+              typeof __react_refresh_error_overlay__ !== 'undefined' &&
+              __react_refresh_error_overlay__
+            ) {
+              __react_refresh_error_overlay__.clearRuntimeErrors();
+            }
+          }
+        );
+      }
+    }
+  } else {
+    if (isHotUpdate && __react_refresh_utils__.isReactRefreshBoundary(prevExports)) {
+      module.hot.invalidate();
+    }
+  }
+}
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js */ "./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js"), __webpack_require__(/*! ./node_modules/react-dev-utils/refreshOverlayInterop.js */ "./node_modules/react-dev-utils/refreshOverlayInterop.js")))
+
+/***/ }),
+
+/***/ "./src/components/Signup.js":
+/*!**********************************!*\
+  !*** ./src/components/Signup.js ***!
+  \**********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* WEBPACK VAR INJECTION */(function(__react_refresh_utils__, __react_refresh_error_overlay__) {/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var _img_registration_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../img/registration.jpg */ "./src/img/registration.jpg");
+/* harmony import */ var _material_ui_icons_AccountBox__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @material-ui/icons/AccountBox */ "./node_modules/@material-ui/icons/AccountBox.js");
+/* harmony import */ var _material_ui_icons_AccountBox__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_material_ui_icons_AccountBox__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _material_ui_icons_MailOutline__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @material-ui/icons/MailOutline */ "./node_modules/@material-ui/icons/MailOutline.js");
+/* harmony import */ var _material_ui_icons_MailOutline__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_material_ui_icons_MailOutline__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _material_ui_icons_PhoneAndroid__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @material-ui/icons/PhoneAndroid */ "./node_modules/@material-ui/icons/PhoneAndroid.js");
+/* harmony import */ var _material_ui_icons_PhoneAndroid__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_material_ui_icons_PhoneAndroid__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _material_ui_icons_WorkOutline__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @material-ui/icons/WorkOutline */ "./node_modules/@material-ui/icons/WorkOutline.js");
+/* harmony import */ var _material_ui_icons_WorkOutline__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_material_ui_icons_WorkOutline__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var _material_ui_icons_VpnKey__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @material-ui/icons/VpnKey */ "./node_modules/@material-ui/icons/VpnKey.js");
+/* harmony import */ var _material_ui_icons_VpnKey__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_material_ui_icons_VpnKey__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_8__);
+__webpack_require__.$Refresh$.runtime = __webpack_require__(/*! ./node_modules/react-refresh/runtime.js */ "./node_modules/react-refresh/runtime.js");
+__webpack_require__.$Refresh$.setup(module.i);
+
+var _jsxFileName = "D:\\reactjs2\\MERN\\client\\src\\components\\Signup.js";
+
+
+
+
+
+
+
+
+
+
+
+const Signup = () => {
+  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_8__["jsxDEV"])(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_8__["Fragment"], {
+    children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_8__["jsxDEV"])("section", {
+      className: "signup",
+      children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_8__["jsxDEV"])("div", {
+        className: "container mt-5",
+        children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_8__["jsxDEV"])("div", {
+          className: "row signup-content",
+          children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_8__["jsxDEV"])("div", {
+            className: "signup-form col-6",
+            children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_8__["jsxDEV"])("h2", {
+              className: "form-title",
+              children: "Sign Up"
+            }, void 0, false, {
+              fileName: _jsxFileName,
+              lineNumber: 17,
+              columnNumber: 25
+            }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_8__["jsxDEV"])("form", {
+              className: "register-form",
+              id: "register-form",
+              children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_8__["jsxDEV"])("div", {
+                className: "form-group",
+                children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_8__["jsxDEV"])("lable", {
+                  htmlFor: "name",
+                  children: [" ", /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_8__["jsxDEV"])(_material_ui_icons_AccountBox__WEBPACK_IMPORTED_MODULE_3___default.a, {}, void 0, false, {
+                    fileName: _jsxFileName,
+                    lineNumber: 20,
+                    columnNumber: 56
+                  }, undefined), " "]
+                }, void 0, true, {
+                  fileName: _jsxFileName,
+                  lineNumber: 20,
+                  columnNumber: 33
+                }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_8__["jsxDEV"])("input", {
+                  type: "text",
+                  name: "name",
+                  id: "name",
+                  autoComplete: "off",
+                  placeholder: "Your Name"
+                }, void 0, false, {
+                  fileName: _jsxFileName,
+                  lineNumber: 21,
+                  columnNumber: 33
+                }, undefined)]
+              }, void 0, true, {
+                fileName: _jsxFileName,
+                lineNumber: 19,
+                columnNumber: 29
+              }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_8__["jsxDEV"])("div", {
+                className: "form-group",
+                children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_8__["jsxDEV"])("lable", {
+                  htmlFor: "email",
+                  children: [" ", /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_8__["jsxDEV"])(_material_ui_icons_MailOutline__WEBPACK_IMPORTED_MODULE_4___default.a, {}, void 0, false, {
+                    fileName: _jsxFileName,
+                    lineNumber: 25,
+                    columnNumber: 57
+                  }, undefined), " "]
+                }, void 0, true, {
+                  fileName: _jsxFileName,
+                  lineNumber: 25,
+                  columnNumber: 33
+                }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_8__["jsxDEV"])("input", {
+                  type: "email",
+                  name: "email",
+                  id: "email",
+                  autoComplete: "off",
+                  placeholder: "Your Email"
+                }, void 0, false, {
+                  fileName: _jsxFileName,
+                  lineNumber: 26,
+                  columnNumber: 33
+                }, undefined)]
+              }, void 0, true, {
+                fileName: _jsxFileName,
+                lineNumber: 24,
+                columnNumber: 29
+              }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_8__["jsxDEV"])("div", {
+                className: "form-group",
+                children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_8__["jsxDEV"])("lable", {
+                  htmlFor: "phone",
+                  children: [" ", /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_8__["jsxDEV"])(_material_ui_icons_PhoneAndroid__WEBPACK_IMPORTED_MODULE_5___default.a, {}, void 0, false, {
+                    fileName: _jsxFileName,
+                    lineNumber: 30,
+                    columnNumber: 57
+                  }, undefined), " "]
+                }, void 0, true, {
+                  fileName: _jsxFileName,
+                  lineNumber: 30,
+                  columnNumber: 33
+                }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_8__["jsxDEV"])("input", {
+                  type: "number",
+                  name: "phone",
+                  id: "phone",
+                  autoComplete: "off",
+                  placeholder: "Your phone"
+                }, void 0, false, {
+                  fileName: _jsxFileName,
+                  lineNumber: 31,
+                  columnNumber: 33
+                }, undefined)]
+              }, void 0, true, {
+                fileName: _jsxFileName,
+                lineNumber: 29,
+                columnNumber: 29
+              }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_8__["jsxDEV"])("div", {
+                className: "form-group",
+                children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_8__["jsxDEV"])("lable", {
+                  htmlFor: "work",
+                  children: [" ", /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_8__["jsxDEV"])(_material_ui_icons_WorkOutline__WEBPACK_IMPORTED_MODULE_6___default.a, {}, void 0, false, {
+                    fileName: _jsxFileName,
+                    lineNumber: 35,
+                    columnNumber: 56
+                  }, undefined), " "]
+                }, void 0, true, {
+                  fileName: _jsxFileName,
+                  lineNumber: 35,
+                  columnNumber: 33
+                }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_8__["jsxDEV"])("input", {
+                  type: "text",
+                  name: "work",
+                  id: "work",
+                  autoComplete: "off",
+                  placeholder: "Your Profession"
+                }, void 0, false, {
+                  fileName: _jsxFileName,
+                  lineNumber: 36,
+                  columnNumber: 33
+                }, undefined)]
+              }, void 0, true, {
+                fileName: _jsxFileName,
+                lineNumber: 34,
+                columnNumber: 29
+              }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_8__["jsxDEV"])("div", {
+                className: "form-group",
+                children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_8__["jsxDEV"])("lable", {
+                  htmlFor: "password",
+                  children: [" ", /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_8__["jsxDEV"])(_material_ui_icons_VpnKey__WEBPACK_IMPORTED_MODULE_7___default.a, {}, void 0, false, {
+                    fileName: _jsxFileName,
+                    lineNumber: 40,
+                    columnNumber: 60
+                  }, undefined), " "]
+                }, void 0, true, {
+                  fileName: _jsxFileName,
+                  lineNumber: 40,
+                  columnNumber: 33
+                }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_8__["jsxDEV"])("input", {
+                  type: "password",
+                  name: "password",
+                  id: "password",
+                  autoComplete: "off",
+                  placeholder: "Your Password"
+                }, void 0, false, {
+                  fileName: _jsxFileName,
+                  lineNumber: 41,
+                  columnNumber: 33
+                }, undefined)]
+              }, void 0, true, {
+                fileName: _jsxFileName,
+                lineNumber: 39,
+                columnNumber: 29
+              }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_8__["jsxDEV"])("div", {
+                className: "form-group",
+                children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_8__["jsxDEV"])("lable", {
+                  htmlFor: "cpassword",
+                  children: [" ", /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_8__["jsxDEV"])(_material_ui_icons_VpnKey__WEBPACK_IMPORTED_MODULE_7___default.a, {}, void 0, false, {
+                    fileName: _jsxFileName,
+                    lineNumber: 45,
+                    columnNumber: 61
+                  }, undefined), " "]
+                }, void 0, true, {
+                  fileName: _jsxFileName,
+                  lineNumber: 45,
+                  columnNumber: 33
+                }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_8__["jsxDEV"])("input", {
+                  type: "password",
+                  name: "cpassword",
+                  id: "cpassword",
+                  autoComplete: "off",
+                  placeholder: "Confirm Your Password"
+                }, void 0, false, {
+                  fileName: _jsxFileName,
+                  lineNumber: 46,
+                  columnNumber: 33
+                }, undefined)]
+              }, void 0, true, {
+                fileName: _jsxFileName,
+                lineNumber: 44,
+                columnNumber: 29
+              }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_8__["jsxDEV"])("div", {
+                className: "form-group form-button",
+                children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_8__["jsxDEV"])("input", {
+                  type: "submit",
+                  name: "signup",
+                  value: "register"
+                }, void 0, false, {
+                  fileName: _jsxFileName,
+                  lineNumber: 50,
+                  columnNumber: 33
+                }, undefined)
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 49,
+                columnNumber: 29
+              }, undefined)]
+            }, void 0, true, {
+              fileName: _jsxFileName,
+              lineNumber: 18,
+              columnNumber: 25
+            }, undefined)]
+          }, void 0, true, {
+            fileName: _jsxFileName,
+            lineNumber: 16,
+            columnNumber: 21
+          }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_8__["jsxDEV"])("div", {
+            className: "signup-image col-6",
+            children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_8__["jsxDEV"])("figure", {
+              children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_8__["jsxDEV"])("img", {
+                src: _img_registration_jpg__WEBPACK_IMPORTED_MODULE_2__["default"],
+                alt: "signup"
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 57,
+                columnNumber: 29
+              }, undefined)
+            }, void 0, false, {
+              fileName: _jsxFileName,
+              lineNumber: 56,
+              columnNumber: 25
+            }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_8__["jsxDEV"])(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["NavLink"], {
+              to: "/login",
+              className: "signup-image-link",
+              children: "I have already registered."
+            }, void 0, false, {
+              fileName: _jsxFileName,
+              lineNumber: 59,
+              columnNumber: 25
+            }, undefined)]
+          }, void 0, true, {
+            fileName: _jsxFileName,
+            lineNumber: 55,
+            columnNumber: 21
+          }, undefined)]
+        }, void 0, true, {
+          fileName: _jsxFileName,
+          lineNumber: 15,
+          columnNumber: 17
+        }, undefined)
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 14,
+        columnNumber: 13
+      }, undefined)
+    }, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 13,
+      columnNumber: 11
+    }, undefined)
+  }, void 0, false);
+};
+
+_c = Signup;
+/* harmony default export */ __webpack_exports__["default"] = (Signup);
+
+var _c;
+
+__webpack_require__.$Refresh$.register(_c, "Signup");
+
+const currentExports = __react_refresh_utils__.getModuleExports(module.i);
+__react_refresh_utils__.registerExportsForReactRefresh(currentExports, module.i);
+
+if (true) {
+  const isHotUpdate = !!module.hot.data;
+  const prevExports = isHotUpdate ? module.hot.data.prevExports : null;
+
+  if (__react_refresh_utils__.isReactRefreshBoundary(currentExports)) {
+    module.hot.dispose(
+      /**
+       * A callback to performs a full refresh if React has unrecoverable errors,
+       * and also caches the to-be-disposed module.
+       * @param {*} data A hot module data object from Webpack HMR.
+       * @returns {void}
+       */
+      function hotDisposeCallback(data) {
+        // We have to mutate the data object to get data registered and cached
+        data.prevExports = currentExports;
+      }
+    );
+    module.hot.accept(
+      /**
+       * An error handler to allow self-recovering behaviours.
+       * @param {Error} error An error occurred during evaluation of a module.
+       * @returns {void}
+       */
+      function hotErrorHandler(error) {
+        if (
+          typeof __react_refresh_error_overlay__ !== 'undefined' &&
+          __react_refresh_error_overlay__
+        ) {
+          __react_refresh_error_overlay__.handleRuntimeError(error);
+        }
+
+        if (typeof __react_refresh_test__ !== 'undefined' && __react_refresh_test__) {
+          if (window.onHotAcceptError) {
+            window.onHotAcceptError(error.message);
+          }
+        }
+
+        __webpack_require__.c[module.i].hot.accept(hotErrorHandler);
+      }
+    );
+
+    if (isHotUpdate) {
+      if (
+        __react_refresh_utils__.isReactRefreshBoundary(prevExports) &&
+        __react_refresh_utils__.shouldInvalidateReactRefreshBoundary(prevExports, currentExports)
+      ) {
+        module.hot.invalidate();
+      } else {
+        __react_refresh_utils__.enqueueUpdate(
+          /**
+           * A function to dismiss the error overlay after performing React refresh.
+           * @returns {void}
+           */
+          function updateCallback() {
+            if (
+              typeof __react_refresh_error_overlay__ !== 'undefined' &&
+              __react_refresh_error_overlay__
+            ) {
+              __react_refresh_error_overlay__.clearRuntimeErrors();
+            }
+          }
+        );
+      }
+    }
+  } else {
+    if (isHotUpdate && __react_refresh_utils__.isReactRefreshBoundary(prevExports)) {
+      module.hot.invalidate();
+    }
+  }
+}
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js */ "./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js"), __webpack_require__(/*! ./node_modules/react-dev-utils/refreshOverlayInterop.js */ "./node_modules/react-dev-utils/refreshOverlayInterop.js")))
+
+/***/ }),
+
+/***/ "./src/img/login.jpg":
+/*!***************************!*\
+  !*** ./src/img/login.jpg ***!
+  \***************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "static/media/login.9ab28b6c.jpg");
+
+/***/ }),
+
+/***/ "./src/img/registration.jpg":
+/*!**********************************!*\
+  !*** ./src/img/registration.jpg ***!
+  \**********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "static/media/registration.a596c685.jpg");
+
+/***/ }),
+
+/***/ "./src/img/vip.jpg":
+/*!*************************!*\
+  !*** ./src/img/vip.jpg ***!
+  \*************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "static/media/vip.a35b7f21.jpg");
+
+/***/ }),
+
+/***/ "./src/index.css":
+/*!***********************!*\
+  !*** ./src/index.css ***!
+  \***********************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var api = __webpack_require__(/*! ../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+            var content = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-4-1!../node_modules/postcss-loader/src??postcss!./index.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/index.css");
+
+            content = content.__esModule ? content.default : content;
+
+            if (typeof content === 'string') {
+              content = [[module.i, content, '']];
+            }
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = api(content, options);
+
+
+if (true) {
+  if (!content.locals || module.hot.invalidate) {
+    var isEqualLocals = function isEqualLocals(a, b, isNamedExport) {
+  if (!a && b || a && !b) {
+    return false;
+  }
+
+  var p;
+
+  for (p in a) {
+    if (isNamedExport && p === 'default') {
+      // eslint-disable-next-line no-continue
+      continue;
+    }
+
+    if (a[p] !== b[p]) {
+      return false;
+    }
+  }
+
+  for (p in b) {
+    if (isNamedExport && p === 'default') {
+      // eslint-disable-next-line no-continue
+      continue;
+    }
+
+    if (!a[p]) {
+      return false;
+    }
+  }
+
+  return true;
+};
+    var oldLocals = content.locals;
+
+    module.hot.accept(
+      /*! !../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-4-1!../node_modules/postcss-loader/src??postcss!./index.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/index.css",
+      function () {
+        content = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-4-1!../node_modules/postcss-loader/src??postcss!./index.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/index.css");
+
+              content = content.__esModule ? content.default : content;
+
+              if (typeof content === 'string') {
+                content = [[module.i, content, '']];
+              }
+
+              if (!isEqualLocals(oldLocals, content.locals)) {
+                module.hot.invalidate();
+
+                return;
+              }
+
+              oldLocals = content.locals;
+
+              update(content);
+      }
+    )
+  }
+
+  module.hot.dispose(function() {
+    update();
+  });
+}
+
+module.exports = content.locals || {};
+
+/***/ }),
+
+/***/ "./src/index.js":
+/*!**********************!*\
+  !*** ./src/index.js ***!
+  \**********************/
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* WEBPACK VAR INJECTION */(function(__react_refresh_utils__, __react_refresh_error_overlay__) {/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./index.css */ "./src/index.css");
+/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_index_css__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _App__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./App */ "./src/App.js");
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__);
+__webpack_require__.$Refresh$.runtime = __webpack_require__(/*! ./node_modules/react-refresh/runtime.js */ "./node_modules/react-refresh/runtime.js");
+__webpack_require__.$Refresh$.setup(module.i);
+
+var _jsxFileName = "D:\\reactjs2\\MERN\\client\\src\\index.js";
+
+
+
+
+
+
+react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render( /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])(react__WEBPACK_IMPORTED_MODULE_0___default.a.StrictMode, {
+  children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])(react_router_dom__WEBPACK_IMPORTED_MODULE_4__["BrowserRouter"], {
+    children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])(_App__WEBPACK_IMPORTED_MODULE_3__["default"], {}, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 11,
+      columnNumber: 5
+    }, undefined)
+  }, void 0, false, {
+    fileName: _jsxFileName,
+    lineNumber: 10,
+    columnNumber: 5
+  }, undefined)
+}, void 0, false, {
+  fileName: _jsxFileName,
+  lineNumber: 9,
+  columnNumber: 3
+}, undefined), document.getElementById('root'));
+
+const currentExports = __react_refresh_utils__.getModuleExports(module.i);
+__react_refresh_utils__.registerExportsForReactRefresh(currentExports, module.i);
+
+if (true) {
+  const isHotUpdate = !!module.hot.data;
+  const prevExports = isHotUpdate ? module.hot.data.prevExports : null;
+
+  if (__react_refresh_utils__.isReactRefreshBoundary(currentExports)) {
+    module.hot.dispose(
+      /**
+       * A callback to performs a full refresh if React has unrecoverable errors,
+       * and also caches the to-be-disposed module.
+       * @param {*} data A hot module data object from Webpack HMR.
+       * @returns {void}
+       */
+      function hotDisposeCallback(data) {
+        // We have to mutate the data object to get data registered and cached
+        data.prevExports = currentExports;
+      }
+    );
+    module.hot.accept(
+      /**
+       * An error handler to allow self-recovering behaviours.
+       * @param {Error} error An error occurred during evaluation of a module.
+       * @returns {void}
+       */
+      function hotErrorHandler(error) {
+        if (
+          typeof __react_refresh_error_overlay__ !== 'undefined' &&
+          __react_refresh_error_overlay__
+        ) {
+          __react_refresh_error_overlay__.handleRuntimeError(error);
+        }
+
+        if (typeof __react_refresh_test__ !== 'undefined' && __react_refresh_test__) {
+          if (window.onHotAcceptError) {
+            window.onHotAcceptError(error.message);
+          }
+        }
+
+        __webpack_require__.c[module.i].hot.accept(hotErrorHandler);
+      }
+    );
+
+    if (isHotUpdate) {
+      if (
+        __react_refresh_utils__.isReactRefreshBoundary(prevExports) &&
+        __react_refresh_utils__.shouldInvalidateReactRefreshBoundary(prevExports, currentExports)
+      ) {
+        module.hot.invalidate();
+      } else {
+        __react_refresh_utils__.enqueueUpdate(
+          /**
+           * A function to dismiss the error overlay after performing React refresh.
+           * @returns {void}
+           */
+          function updateCallback() {
+            if (
+              typeof __react_refresh_error_overlay__ !== 'undefined' &&
+              __react_refresh_error_overlay__
+            ) {
+              __react_refresh_error_overlay__.clearRuntimeErrors();
+            }
+          }
+        );
+      }
+    }
+  } else {
+    if (isHotUpdate && __react_refresh_utils__.isReactRefreshBoundary(prevExports)) {
+      module.hot.invalidate();
+    }
+  }
+}
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js */ "./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js"), __webpack_require__(/*! ./node_modules/react-dev-utils/refreshOverlayInterop.js */ "./node_modules/react-dev-utils/refreshOverlayInterop.js")))
+
+/***/ }),
+
+/***/ 1:
+/*!**********************************************************************************************************************************************************************************************!*\
+  !*** multi (webpack)/hot/dev-server.js ./node_modules/@pmmmwh/react-refresh-webpack-plugin/client/ReactRefreshEntry.js ./node_modules/react-dev-utils/webpackHotDevClient.js ./src/index.js ***!
+  \**********************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(/*! D:\reactjs2\MERN\client\node_modules\webpack\hot\dev-server.js */"./node_modules/webpack/hot/dev-server.js");
+__webpack_require__(/*! D:\reactjs2\MERN\client\node_modules\@pmmmwh\react-refresh-webpack-plugin\client\ReactRefreshEntry.js */"./node_modules/@pmmmwh/react-refresh-webpack-plugin/client/ReactRefreshEntry.js");
+__webpack_require__(/*! D:\reactjs2\MERN\client\node_modules\react-dev-utils\webpackHotDevClient.js */"./node_modules/react-dev-utils/webpackHotDevClient.js");
+module.exports = __webpack_require__(/*! D:\reactjs2\MERN\client\src\index.js */"./src/index.js");
+
+
+/***/ })
+
+},[[1,"runtime-main","vendors~main"]]]);
+//# sourceMappingURL=main.chunk.js.map
